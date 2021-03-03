@@ -36,7 +36,7 @@
 
     padding-bottom: 2px;
 
-    background-image: url('../../assets/images/intro-pic.fw.png');
+    background-image: url('../assets/images/intro-pic.fw.png');
     background-image: center;
     background-size: cover;
     .swiper-container {
@@ -173,7 +173,7 @@
         left: 8px;
         width: 24px;
         height: 24px;
-        background: url(../../assets/images/check.fw.png);
+        background: url('../assets/images/check.fw.png');
         background-repeat: no-repeat;
         background-position: center;
       }
@@ -220,7 +220,7 @@
         color: $offwhite;
         text-decoration: none;
 
-        background-image: url('../../assets/images/buttons.fw.png');
+        background-image: url('../assets/images/buttons.fw.png');
         border: none;
         border-radius: 30px;
 
@@ -235,7 +235,7 @@
     
       height: 690px;
 
-      background: url('../../assets/images/provide-img.fw.png');
+      background: url('../assets/images/provide-img.fw.png');
       background-repeat: no-repeat;
       background-position: center;
 
@@ -349,7 +349,7 @@
     .swiper-slide:first-child {
       width: 47%;
 
-      background-image: url('../../assets/images/health-first.5.fw.png');
+      background-image: url('../assets/images/health-first.5.fw.png');
       background-size: cover;
       background-position: center;
 
@@ -401,7 +401,7 @@
     .swiper-slide:nth-child(2) {
       width: 23%;
 
-      background-image: url('../../assets/images/health-second.5.fw.png');
+      background-image: url('../assets/images/health-second.5.fw.png');
       background-size: cover;
       background-position: center;
 
@@ -448,7 +448,7 @@
     .swiper-slide:nth-child(3) {
       width: 23%;
 
-      background-image: url('../../assets/images/health-third.5.fw.png');
+      background-image: url('../assets/images/health-third.5.fw.png');
       background-size: cover;
       background-position: center;
 
@@ -495,7 +495,7 @@
     .swiper-slide:nth-child(4) {
       width: 23%;
 
-      background-image: url('../../assets/images/health-fourth.fw.png');
+      background-image: url('../assets/images/health-fourth.fw.png');
       background-size: cover;
       background-position: center;
 
@@ -550,7 +550,7 @@
       color: $offwhite;
       text-decoration: none;
 
-      background-image: url('../../assets/images/buttons.fw.png');
+      background-image: url('../assets/images/buttons.fw.png');
       
       border-radius: 30px;
       border: 0;
@@ -562,7 +562,7 @@
     padding-bottom: 100px;
     margin-top: 105px;
 
-    background-image:url('../../assets/images/information-bg.fw.png');
+    background-image:url('../assets/images/information-bg.fw.png');
     background-size: cover;
     background-position: 46px;
 
@@ -610,7 +610,9 @@
         width: 30px;
         height: 28px;
 
-        background: url(../../assets/images/check.fw.png) no-repeat center;
+        background: url('../assets/images/check.fw.png');
+        background-repeat: no-repeat;
+        background-position: center;
         background-size: 100%;
       }
     
@@ -640,7 +642,7 @@
       font-size: 15px;
       color: $offwhite;
 
-      background-image: url('../../assets/images/buttons.fw.png');
+      background-image: url('../assets/images/buttons.fw.png');
       border-radius: 30px;
       border: none;
 
@@ -665,7 +667,7 @@
   
       padding-bottom: 2px;
   
-      background-image: url('../../assets/images/intro-pic.fw.png');
+      background-image: url('../assets/images/intro-pic.fw.png');
       background-image: center;
       background-size: cover;
       background-position: center;
@@ -864,7 +866,7 @@
       .swiper-slide:first-child {
         width: 55%;
 
-        background-image: url('../../assets/images/health-first.5.fw.png');
+        background-image: url('../assets/images/health-first.5.fw.png');
         background-size: cover;
   
         .description {
@@ -884,7 +886,7 @@
       .swiper-slide:nth-child(2) {
         width: 35%;
 
-        background-image: url('../../assets/images/health-second.5.fw.png');
+        background-image: url('../assets/images/health-second.5.fw.png');
         background-size: cover;
   
         .description {
@@ -903,7 +905,7 @@
   
       .swiper-slide:nth-child(3) {
         width: 35%;
-        background-image: url('../../assets/images/health-third.5.fw.png');
+        background-image: url('../assets/images/health-third.5.fw.png');
         background-size: cover;
   
         .description {
@@ -922,7 +924,7 @@
       .swiper-slide:nth-child(4) {
         width: 35%;
 
-        background-image: url('../../assets/images/health-fourth.fw.png');
+        background-image: url('../assets/images/health-fourth.fw.png');
         background-size: cover;
   
         .description {
@@ -950,7 +952,7 @@
         font-size: 15px;
         color: $offwhite;
   
-        background-image: url('../../assets/images/buttons.fw.png');
+        background-image: url('../assets/images/buttons.fw.png');
         
         border-radius: 30px;
         border: 0;
@@ -958,6 +960,7 @@
         outline: 0;
       }
     }
+
     .information-system {
       background-position: -111px;
       padding-bottom: 190px;
@@ -1245,7 +1248,7 @@
       .swiper-slide:first-child {
         width: 50%;
 
-        background-image: url('../../assets/images/health-first.5.fw.png');
+        background-image: url('../assets/images/health-first.5.fw.png');
   
         .description {
           margin-top: 230px;
@@ -1270,7 +1273,7 @@
       .swiper-slide:nth-child(2) {
         width: 50%;
 
-        background-image: url('../../assets/images/health-second.5.fw.png');
+        background-image: url('../assets/images/health-second.5.fw.png');
         background-size: cover;
   
         .description {
@@ -1300,7 +1303,7 @@
       .swiper-slide:nth-child(3) {
         width: 30%;
 
-        background-image: url('../../assets/images/health-third.5.fw.png');
+        background-image: url('../assets/images/health-third.5.fw.png');
         background-size: cover;
   
         .description {
@@ -1326,7 +1329,7 @@
       .swiper-slide:nth-child(4) {
         width: 30%;
 
-        background-image: url('../../assets/images/health-fourth.fw.png');
+        background-image: url('../assets/images/health-fourth.fw.png');
         background-size: cover;
   
         .description {
@@ -1654,7 +1657,7 @@
       .swiper-slide:first-child {
         width: 50%;
 
-        background-image: url('../../assets/images/health-first.5.fw.png');
+        background-image: url('../assets/images/health-first.5.fw.png');
   
         .description {
           margin-top: 229px;
@@ -1679,7 +1682,7 @@
       .swiper-slide:nth-child(2) {
         width: 50%;
 
-        background-image: url('../../assets/images/health-second.5.fw.png');
+        background-image: url('../assets/images/health-second.5.fw.png');
         background-size: cover;
   
         .description {
@@ -1706,7 +1709,7 @@
       .swiper-slide:nth-child(3) {
         width: 50%;
 
-        background-image: url('../../assets/images/health-third.5.fw.png');
+        background-image: url('../assets/images/health-third.5.fw.png');
         background-size: cover;
   
         .description {
@@ -1732,7 +1735,7 @@
       .swiper-slide:nth-child(4) {
         width: 50%;
 
-        background-image: url('../../assets/images/health-fourth.fw.png');
+        background-image: url('../assets/images/health-fourth.fw.png');
         background-size: cover;
   
         .description {
@@ -2080,7 +2083,7 @@
       .swiper-slide:first-child {
         width: 97%;
 
-        background-image: url('../../assets/images/health-first.5.fw.png');
+        background-image: url('../assets/images/health-first.5.fw.png');
   
         .description {
           margin-top: 108px;
@@ -2112,7 +2115,7 @@
       .swiper-slide:nth-child(2) {
         width: 50%;
 
-        background-image: url('../../assets/images/health-second.5.fw.png');
+        background-image: url('../assets/images/health-second.5.fw.png');
         background-size: cover;
   
         .description {
@@ -2145,7 +2148,7 @@
       .swiper-slide:nth-child(3) {
         width: 50%;
 
-        background-image: url('../../assets/images/health-third.5.fw.png');
+        background-image: url('../assets/images/health-third.5.fw.png');
         background-size: cover;
   
         .description {
@@ -2178,7 +2181,7 @@
       .swiper-slide:nth-child(4) {
         width: 50%;
 
-        background-image: url('../../assets/images/health-fourth.fw.png');
+        background-image: url('../assets/images/health-fourth.fw.png');
         background-size: cover;
   
         .description {
