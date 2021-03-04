@@ -12,8 +12,6 @@
   background-image: url('../../assets/images/bestassictane-app-bg.fw.png');
   background-size: cover;
   background-repeat: no-repeat;
-  
-
   .first-row {
     height: 445px;
 
@@ -203,6 +201,10 @@
     .footer-icons {
       margin-top: 12px;
       margin-left: 10px;
+    }
+
+    .footer-link-icons {
+      text-decoration: none;
     }
   }
 }
