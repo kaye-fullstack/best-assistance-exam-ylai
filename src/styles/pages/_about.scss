@@ -1,0 +1,700 @@
+//XL
+.home {
+  .introduction-about {
+    padding-bottom: 570px;
+    margin-top: 17px;
+
+    background-image: url('../../assets/images/about-bg-img.jpg');
+    background-position: center left 6px;
+    background-size: cover;
+
+  .navs-wrapper {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      .nav-link {
+        font-size: 24px;
+      }
+    }
+
+    .custom-breadcrumb {
+      position: relative;
+      top: 569px;
+      border-bottom: 1px solid $gray;
+    }
+
+    .breadcrumb {
+      margin-bottom: 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .breadcrumb-item:nth-child(2)::before {
+        content: "";
+      }
+
+      .breadcrumb-item:nth-child(3)::before {
+        content: "";
+      }
+    }
+
+    .breadcrumb-item {
+      font-family: $font-opensanssemibold;
+      font-size: 13px;
+    }
+
+    .disabled {
+      pointer-events: none;
+    }
+    
+    .item {
+      color: $ink;
+    }
+
+    .active {
+      color: $seablue;
+    }
+
+    .fa-angle-right {
+      margin: 0 -5px 0 10px;
+    }
+}
+
+  .about-content {
+    margin-top: 128px;
+    .about-why-us:first-child {
+      background-image: url('../assets/images/about-img.png');
+      background-repeat: no-repeat;
+      background-position: left -173px center;
+      .title {
+        padding-left: 168px;
+        margin-top: 102px;
+
+        font-family: $font-opensansbold;
+        font-size: 40px;
+        text-align: center;
+      }
+
+      .description {
+        padding-left: 420px;
+        padding-bottom: 31px;
+        margin-top: 18px;
+        
+        font-size: 17px;
+        
+        line-height: 1.5;
+      }
+
+      .rounded-circle {
+        width: 420px;
+        height: 416px;
+
+        margin-left: 86px;
+
+        border-right: 8px solid $tangerine;
+      }
+    }
+
+    .about-why-us:nth-child(2) {
+      .title {
+        padding-left: 8px;
+        margin-top: 124px;
+
+        font-family: $font-opensansbold;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .subtitle {
+        padding-top: 8px;
+        padding-left: 8px;
+
+        margin-bottom: 2px;
+
+        font-family: $font-opensanssemibold;
+        font-size: 16.5px;
+      }
+
+      .description {
+        padding-left: 7px;
+        padding-bottom: 23px;
+        margin-top: 3px;
+        margin-right: 396px;
+        margin-bottom: 0;
+        
+        font-size: 17px;
+        
+        line-height: 1.5;
+      }
+
+      .rounded-circle {
+        width: 420px;
+        height: 416px;
+
+        margin-top: 255px;
+        margin-left: 420px;
+
+        border-right: 13px solid $tangerine;
+      }
+    }
+
+    .about-why-us:nth-child(3) {
+      background-image: url('../assets/images/about-img.png');
+      background-repeat: no-repeat;
+      background-position: right -173px center;
+      .title {
+        padding-left: 155px;
+        margin-top: 131px;
+
+        font-family: $font-opensansbold;
+        font-size: 40px;
+        text-align: center;
+      }
+
+      .description {
+        padding-left: 420px;
+        padding-bottom: 13px;
+        margin-top: 16px;
+        
+        font-size: 17px;
+        
+        line-height: 1.5;
+      }
+
+      .rounded-circle {
+        width: 412px;
+        height: 412px;
+
+        margin-top: 124px; 
+        margin-left: 91px;  
+
+        border-right: 8px solid $tangerine;
+      }
+    }
+
+    .about-why-us:last-child {
+      .title {
+        padding-left: 8px;
+        margin-top: 268px;
+
+        font-family: $font-opensansbold;
+        font-size: 40px;
+        text-align: left;
+      }
+
+
+      .description {
+        padding-left: 7px;
+        padding-bottom: 23px;
+        margin-top: 15px;
+        margin-right: 350px;
+        margin-bottom: 0;
+        
+        font-size: 17px;
+        
+        line-height: 1.5;
+      }
+
+      .rounded-circle {
+        width: 420px;
+        height: 416px;
+
+        margin-top: 123px;
+        margin-left: 431px;
+
+        border-right: 8px solid $tangerine;
+      }
+    }
+  }
+}
+
+//992-1199
+@include respond-to (lg) {
+  .home {
+    .introduction-about {
+      padding-bottom: 570px;
+      margin-top: 17px;
+  
+      background-image: url('../../assets/images/about-bg-img.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .about-content {
+      margin-top: 128px;
+      .about-why-us:first-child {
+        .title {
+          padding-left: 30px;
+
+          text-align: left;
+        }
+  
+        .description {
+          padding-left: 30px;
+        }
+  
+        .rounded-circle {
+          margin-left: 30px;
+        }
+      }
+  
+      .about-why-us:nth-child(2) {
+        .title {
+          padding-left: 30px;
+        }
+  
+        .subtitle {
+          padding-left: 30px;
+        }
+  
+        .description {
+          padding-left: 30px;
+          margin-right: 0;
+        }
+  
+        .rounded-circle {
+          margin-left: 30px;
+        }
+      }
+  
+      .about-why-us:nth-child(3) {
+      .title {
+        padding-left: 30px;
+
+        text-align: left;
+      }
+
+      .description {
+        padding-left: 30px;
+      }
+
+      .rounded-circle {
+        margin-left: 30px;
+      }
+      }
+  
+      .about-why-us:last-child {
+        .column {
+          width: 525px;
+        }
+        .title {
+          padding-left: 0;
+        }
+  
+        .description {
+          padding-left: 0;
+          margin-right: 0;
+        }
+  
+        .rounded-circle {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}
+
+//991-768
+@include respond-to (md) {
+  .home {
+    .about-content {
+      margin-top: 128px;
+      .about-why-us:first-child {
+        .title {
+          padding-left: 10px;
+
+          font-size: 25px;
+          text-align: left;
+        }
+  
+        .description {
+          font-size: 15px;
+          padding-left: 10px;
+        }
+  
+        .rounded-circle {
+          width: 350px;
+          height: 350px;
+
+          margin-left: 10px;
+        }
+      }
+  
+      .about-why-us:nth-child(2) {
+        .title {
+          padding-left: 10px;
+
+          font-size: 25px;
+        }
+  
+        .subtitle {
+          padding-left: 10px;
+          
+          font-size: 15px;
+        }
+  
+        .description {
+          padding-left: 10px;
+          margin-right: 0;
+          
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          width: 350px;
+          height: 350px;
+
+          margin-left: 10px;
+        }
+      }
+  
+      .about-why-us:nth-child(3) {
+        .title {
+            padding-left: 10px;
+
+            font-size: 25px;
+            text-align: left;
+          }
+    
+          .description {
+            font-size: 15px;
+            padding-left: 10px;
+          }
+    
+          .rounded-circle {
+            width: 350px;
+            height: 350px;
+            
+            margin-left: 10px;
+          }
+        }
+  
+      .about-why-us:last-child {
+        .column {
+          width: 390px;
+        }
+        .title {
+          padding-left: 0;
+
+          font-size: 25px;
+        }
+  
+        .description {
+          padding-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          width: 350px;
+          height: 350px;
+
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+//767-576
+@include respond-to (sm) {
+  .home {
+    .introduction-about {
+      padding-bottom: 390px;
+    }
+    .about-content {
+      margin-top: 0;
+      .about-why-us:first-child {
+        background: none;
+        .title {
+          position: relative;
+
+          padding-left: 0;
+
+          font-size: 25px;
+          text-align: left;
+        }
+  
+        .description {
+          position: absolute;
+          top: 451px;
+
+          padding-left: 0;
+          margin-top: 0;
+
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          width: 250px;
+          height: 250px;
+
+          margin-top: 33px;
+          margin-left: 0;
+        }
+      }
+  
+      .about-why-us:nth-child(2) {
+        .title {
+          position: relative;
+          top: -275px;
+
+          padding-left: 0px;
+          margin-top: 0;
+
+          font-size: 25px;
+        }
+  
+        .subtitle {
+          position: relative;
+          top: 7px;
+
+          padding-left: 0;
+          
+          font-size: 15px;
+        }
+  
+        .description {
+          position: relative;
+          bottom: -11px;
+
+          padding-left: 0;
+          margin-right: 0;
+          
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          position: relative;
+          top: 30px;
+
+          width: 250px;
+          height: 250px;
+
+          margin-top: 207px;
+          margin-left: 0px;
+        }
+      }
+  
+      .about-why-us:nth-child(3) {
+        background: none;
+        .title {
+          position: absolute;
+          bottom: 221px;
+
+          padding-left: 0;
+          margin-top: 0;
+
+          font-size: 25px;
+          text-align: left;
+        }
+    
+          .description {
+            position: relative;
+            bottom: -380px;
+
+            padding-left: 0;
+            margin-top: 0;
+
+            font-size: 15px;
+          }
+    
+          .rounded-circle {
+            position: relative;
+            bottom: 190px;
+
+            width: 250px;
+            height: 250px;
+            
+            margin-top: 0;
+            margin-left: 0;
+          }
+        }
+  
+      .about-why-us:last-child {
+        .column {
+          width: 390px;
+        }
+        .title {
+          position: relative;
+          bottom: 100px;
+
+          padding-left: 10px;
+
+          font-size: 25px;
+        }
+  
+        .description {
+          padding-left: 10px;
+          margin-top: 222px;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          position: absolute;
+          top: 230px;
+
+          width: 250px;
+          height: 250px;
+
+          margin-top: 0;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+//320
+@include respond-to (xs) {
+  .home {
+    .introduction-about {
+      padding-bottom: 215px;
+    }
+    .about-content {
+      margin-top: 0;
+      .about-why-us:first-child {
+        background: none;
+        .title {
+          position: relative;
+
+          padding-left: 0;
+
+          font-size: 25px;
+          text-align: left;
+        }
+  
+        .description {
+          position: absolute;
+          top: 451px;
+
+          padding-left: 0;
+          margin-top: 0;
+
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          width: 250px;
+          height: 250px;
+
+          margin-top: 33px;
+          margin-left: 0;
+        }
+      }
+  
+      .about-why-us:nth-child(2) {
+        .title {
+          position: relative;
+          top: -250px;
+
+          padding-left: 0px;
+          margin-top: 0;
+
+          font-size: 25px;
+        }
+  
+        .subtitle {
+          position: relative;
+          top: 35px;
+
+          padding-left: 0;
+          
+          font-size: 15px;
+        }
+  
+        .description {
+          position: relative;
+          bottom: -35px;
+
+          padding-left: 0;
+          margin-right: 0;
+          
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          position: relative;
+          top: 60px;
+
+          width: 250px;
+          height: 250px;
+
+          margin-top: 207px;
+          margin-left: 0px;
+        }
+      }
+  
+      .about-why-us:nth-child(3) {
+        background: none;
+        .title {
+          position: absolute;
+          bottom: 325px;
+
+          padding-left: 0;
+          margin-top: 0;
+
+          font-size: 25px;
+          text-align: left;
+        }
+    
+          .description {
+            position: relative;
+            bottom: -380px;
+
+            padding-left: 0;
+            margin-top: 0;
+
+            font-size: 15px;
+          }
+    
+          .rounded-circle {
+            position: relative;
+            bottom: 305px;
+
+            width: 250px;
+            height: 250px;
+            
+            margin-top: 0;
+            margin-left: 0;
+          }
+        }
+  
+      .about-why-us:last-child {
+        .column {
+          width: 300px;
+        }
+        .title {
+          position: relative;
+          bottom: 100px;
+
+          padding-left: 10px;
+
+          font-size: 25px;
+        }
+  
+        .description {
+          padding-left: 10px;
+          margin-top: 222px;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+  
+        .rounded-circle {
+          position: absolute;
+          top: 230px;
+
+          width: 250px;
+          height: 250px;
+
+          margin-top: 0;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

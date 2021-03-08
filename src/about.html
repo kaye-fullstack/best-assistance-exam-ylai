@@ -9,8 +9,8 @@
   <meta name="author" content="">
   <meta name="format-detection" content="telephone=no">
 
-  <title>Modular Gulp Template</title>
-
+  <title> Best Assistance </title>
+ 
   <link rel="icon" href="./assets/images/favicon.ico">
   <link rel="stylesheet" type="text/css" href="./styles/main.min.css">
   <!--[if lte IE 9]>
@@ -33,98 +33,201 @@
     </div>
   <![endif]-->
 
-  <header>
-    <nav class="navbar navbar-expand-md">
-      <div class="container">
-        <a href="#" class="navbar-brand">Navbar</a>
+  <header class="header">
+    <div class="container custom-container">
+      <nav class="navbar header-navbar navbar-expand-lg">
+        <a href="/" class="navbar-brand">
+          <img class="header-logo" src="assets/images/logo.fw.png">
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar collapse-bar"></span>
+          <span class="icon-bar collapse-bar"></span>
+          <span class="icon-bar collapse-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="#" class="nav-link">Home
-                <span class="sr-only">(current)</span>
+              <a href="about.html" class="nav-link"> About us
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Link</a>
+              <a href="#" class="nav-link">Our Partners</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link disabled">Disabled</a>
+              <a href="#" class="nav-link"> Our Turkey Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> My Journal </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Contact us</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+        </div> 
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item">
+            <a href="tel: +9611425456" class="nav-link telephone">
+              <img class="tel-logo" src="assets/images/tel.fw.png" /> 
+              +961 1 425 456
+            </a>
+          </li>
+          <li class="nav-item">
+            <select class="language"> 
+              <option value="EN"> EN </option>
+              <option value="AR"> AR </option>
+            </select>
+          </li>
+        </ul>     
+       </nav>
+    </div>
   </header>
-
-  <main class="home">
-    <div class="section-intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="content">
-              <h1>Bootstrap starter template </h1>
-              <a href="index.html">Go to home page.</a>
-              <p>Use this document as a way to quickly start any new project.
-                <br> All you get is this text and a mostly barebones HTML document.</p>
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Launch demo modal
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Hi I am a sample modal
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Swiper -->
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">Swiper was not added as a dependency here because it is not needed.</div>
-                  <div class="swiper-slide">Swipe Right Again</div>
-                  <div class="swiper-slide">Swipe Left <br /> (or Swipe Right again.)</div>
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-              </div>
-
-            </div>
+  <main class="home"> 
+    <div class="social-side-bar">
+      <ul class="social-side-links">
+        <li>
+          <a href="facebook.com" class="social-icon-links">
+          <img class="social-side-icons-fb" src="assets/images/fb.fw.png" />
+          </a>
+        </li>
+        <li>
+          <a href="instagram.com" class="social-icon-links">
+          <img class="social-side-icons" src="assets/images/ig.fw.png" />
+          </a>
+        </li>
+        <li>
+          <a href="linkedin.com" class="social-icon-links">
+          <img class="social-side-icons" src="assets/images/linkedin.fw.png" />
+          </a>
+        </li>
+        <li>
+          <a href="share.com" class="social-icon-links">
+          <img class="social-side-icons" src="assets/images/share.fw.png" />
+          </a>
+        </li>
+        <li>
+          <a href="phone.com" class="phone">
+          <img class="social-side-icons" src="assets/images/phone.fw.png" />
+          </a>
+        </li>
+      </ul> 
+    </div>
+    <div class="introduction-about">
+      <div class="container custom-container-about">
+      </div>
+      <div class="breadcrumb-wrapper custom-breadcrumb d-md-block">
+        <ol class="breadcrumb breadcrumb-nav">
+          <li class="breadcrumb-item"><a href="#" class="item">Home<i class="fa fa-angle-right"></i></a></li>
+          <li class="breadcrumb-item disabled"><a href="#" class="item">About us<i class="fa fa-angle-right"></i></a></li>
+          <li class="breadcrumb-item disabled"><a href="#" class="active">Why Us</a></li>
+        </ol>
+      </div>
+    </div> 
+    <div class="about-content">
+      <div class="container custom-container-about">
+        <div class="row about-why-us">
+          <div class="col-md-6">
+            <h2 class="title"> What we do </h2>
+            <p class="description"> We are a Third-Party Administrator (TPA) and a member of Nasco Insurance Group. We manage medical schemes on behalf of insurance companies, self-funded schemes, corporations, governmental institution and other entities. We do this locally, regionally and globally. </p>
           </div>
+          <div class="col-md-6">
+            <img class="rounded-circle" src="assets/images/what-we-do.jpg" />
+          </div>
+        </div>
+        <div class="row about-why-us">
+          <div class="col-md-6">
+            <img class="rounded-circle" src="assets/images/our-values.jpg" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="title"> Our Values </h2>
+            <p class="subtitle"> We earn loyalty, we don’t expect it. </p>
+            <p class="description"> Because our clients are our first priority, and because we genuinely have their best interests at heart, we know how to listen, find solutions proactively and be responsive to their needs. We consider this our duty and part of the long-term commitment.</p>
+            <p class="subtitle"> We think about what matters.</p>
+            <p class="description"> In a world full of cautions, terms and conditions, restrictions and small print, we look for the best solution for each client in an effort to meet every need. </p>
+            <p class="subtitle"> We are as good as our word. </p>
+            <p class="description"> Because we employ the highest professional ethics in everything we do, we have earned a reputation for being an organization rooted in integrity. We don’t over promise, oversell or under deliver, which means we are as good as our word. </p>
+            <p class="subtitle"> We are bold. </p>
+            <p class="description"> We are enterprising, resolute, and a determined partner who brings an inventive and resourceful approach to getting things done.</p>
+          </div>
+        </div>
+        <div class="row about-why-us">
+          <div class="col-md-6">
+            <h2 class="title"> Our people </h2>
+            <p class="description"> Right across Best Assistance, ethics and client service are drilled-in to every single team member. </p>
+            <p class="description"> We are always on hand to serve and guide our diverse clientele through our solid team that is expert in Pre-Authorization, Claims Processing, Production and Underwriting, Customer Service, Providers agreements, as well as related insurance-specific services. Noting that over 65% of our team are medical and para-medical. </p>
+            <p class="description"> Our people are our great strength- they are skilled professionals committed to excellence. </p>
+          </div>
+          <div class="col-md-6">
+            <img class="rounded-circle" src="assets/images/Our-People.jpg" />
+          </div>
+        </div>
+        <div class="row about-why-us">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="rounded-circle" src="assets/images/data.jpg" />
+            </div>
+            <div class="col-md-6 column">
+              <h2 class="title"> Data Confidentiality </h2>
+              <p class="description"> All data – Especially that of our customers – is subject to highly advanced security and confidentiality controls. </p>
+            </div>
+          </div> 
         </div>
       </div>
     </div>
   </main>
+  <footer class="footer">
+    <div class=" container custom-container-about">
+      <div class="row second-row-about">
+        <div class="col-md-4 column">
+          <img class="app-icon" src="assets/images/feedbackfw.png" />
+          <p class="subtitle"> We focus on maintaining a professional customized relationship while administering your medical claim. </p>
+          <a href="#">
+            <p class="app-link" > Give us your feedback </p>
+          </a>
+        </div>
+        <div class="col-md-4 column">
+          <img class="app-icon" src="assets/images/read-more-img.fw.png" />
+          <p class="subtitle"> Read and share your medical case story with us. Get inspired and motivate others for a healthier lifestyle. </p>
+          <a href="#">
+            <p class="app-link" > Share your story </p>
+          </a>
+        </div>
+        <div class="col-md-4 column">
+          <img class="app-icon" src="assets/images/contactus.fw.png" />
+          <p class="subtitle"> +961 1 425 426 </p>
+          <a href="#">
+            <p class="app-link" > Contact us</p>
+          </a>
+        </div>
+      </div>
+      <div class="row third-row-about">
+        <div class=" col-md-6">
+          <ul class="footer-item">
+            <li class="footer-list"> 
+              <a href="#" class="footer-link careers"> Careers </a>
+              <a href="#" class="footer-link policy"> Privacy Policy </a>
+              <a href="#" class="footer-link koein"> By ⓚ koein </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 icons">
+          <a href="facebook.com">
+            <img class="footer-icons fb" src="assets/images/fb-01.fw.png" />
+            </a>
+          <img class="footer-icons ig" src="assets/images/ig-01.fw.png" />
+          <img class="footer-icons linkedin" src="assets/images/linkedin-01.fw.png" />
+          <img class="footer-icons email"  src="assets/images/email.fw.png" />
+          <img class="footer-icons arrow" src="assets/images/arrow.fw.png" />
+        </div>
+      </div>
+    </div>
+  </footer>
 
-  <!-- build:js scripts/about.min.js -->
+  <!-- build:js scripts/main.min.js -->
   <script src="./scripts/vendors/jquery.min.js"></script>
   <script src="./scripts/vendors/popper.min.js"></script>
   <script src="./scripts/vendors/bootstrap.min.js"></script>
+  <script src="./scripts/vendors/swiper.min.js"></script>
   <script src="./scripts/core/base.js"></script>
   <script src="./scripts/modules/theme-module.js"></script>
   <script src="./scripts/bootstrapper.js"></script>
