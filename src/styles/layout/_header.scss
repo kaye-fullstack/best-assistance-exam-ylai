@@ -86,6 +86,81 @@
   }
 }
 
+.header-about {   
+  .header-logo { 
+    padding-bottom: 30px;
+
+    margin-top: 14px;
+    margin-left: 68px;
+  }
+
+  .header-navbar {
+    z-index: 2;
+  }
+
+  .navbar-buttons {
+    list-style-type: none;
+  }
+  
+  .nav-link {
+    margin-top: 3px;
+    margin-left: 22px;
+    margin-right: 4px;
+
+    font-family: $font-opensans;
+    font-size: 14.2px;
+    font-weight: bold;
+    color: $ink;
+
+    letter-spacing: .6px;
+  }
+
+  .nav-link:hover {
+    color: $greeny;
+  }
+
+  .telephone {
+    padding: 15px;
+    margin-top: 4px;
+    margin-left: 27px;
+    margin-right: 2px;
+
+    width: 170px;
+
+    font-size: 14px;
+    color: $offwhite;
+    background-color: $golden;
+    
+    text-align: center;
+
+    border-radius: 25px;
+
+    .tel-logo {
+      width: 16px;
+    }
+  }
+
+  .language {
+    padding: 13px;
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: 71px;
+    
+    width: 79px;
+
+    font-family: $font-opensanssemibold;
+    font-size: 14px;
+    color: $offwhite;
+    background-color: $seablue;
+    
+    text-align: center;
+
+    border-radius: 25px;
+
+    outline: 0;
+  }
+}
+
 //1199-992
 @include respond-to (lg) {
   .header {   

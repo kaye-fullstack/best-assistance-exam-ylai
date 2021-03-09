@@ -1,63 +1,96 @@
 //XL
 .home {
   .introduction-about {
-    padding-bottom: 570px;
+    padding-bottom: 507px;
     margin-top: 17px;
 
     background-image: url('../assets/images/about-bg-img.jpg');
-    background-position: center left 6px;
+    background-position: center left 7px;
     background-size: cover;
 
   .navs-wrapper {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      .nav-link {
-        font-size: 24px;
-      }
-    }
-
-    .custom-breadcrumb {
-      position: relative;
-      top: 569px;
-      border-bottom: 1px solid $gray;
-    }
-
-    .breadcrumb {
-      margin-bottom: 1px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .breadcrumb-item:nth-child(2)::before {
-        content: "";
-      }
-
-      .breadcrumb-item:nth-child(3)::before {
-        content: "";
-      }
-    }
-
-    .breadcrumb-item {
-      font-family: $font-opensanssemibold;
-      font-size: 13px;
-    }
-
-    .disabled {
-      pointer-events: none;
-    }
+    position: absolute;
+    bottom: 0;
+    left: 0;
     
-    .item {
-      color: $ink;
+    width: 100%;
+    .nav-link {
+      font-size: 24px;
+    }
+  }
+
+  .breadcrumb-wrapper {
+    position: relative;
+    top: 569px;
+
+    border-bottom: 1px solid $gray;
+  }
+
+  .breadcrumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+
+    margin-bottom: 1px;
+    .breadcrumb-item:nth-child(2)::before {
+      content: "";
     }
 
-    .active {
+    .breadcrumb-item:nth-child(3)::before {
+      content: "";
+    }
+  }
+
+  .breadcrumb-item:first-child {
+    padding-left: 40px;
+
+    font-family: $font-opensanssemibold;
+    font-size: 13px;
+  }
+
+  .breadcrumb-item:nth-child(2) {
+    padding-left: 0;
+
+    font-family: $font-opensanssemibold;
+    font-size: 13px;
+  }
+
+  .breadcrumb-item:last-child {
+    padding-left: 0;
+    padding-right: 23px;
+
+    font-family: $font-opensanssemibold;
+    font-size: 13px;
+  }
+
+  .disabled {
+    pointer-events: none;
+  }
+
+  .item {
+    margin-left: 0;
+    margin-right: 0;
+
+    color: $gray;
+    text-decoration: none;
+
+    :hover {
       color: $seablue;
     }
+  }
 
-    .fa-angle-right {
-      margin: 0 -5px 0 10px;
-    }
+  .active {
+    margin-left: 0;
+    margin-right: 0;
+
+    color: $seablue;
+  }
+
+  .fa-angle-right {
+    padding-left: 18px;
+  }
 }
 
   .about-content {
