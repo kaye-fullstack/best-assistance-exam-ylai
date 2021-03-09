@@ -10,17 +10,24 @@
 // -----------------------------------------------------------------------------
 //XL
 .header {   
-  border-bottom: 2px solid $gray;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 
+  z-index: 2;
+
+  transition: all 1s;
+  &.scrolled {
+    background-color: $offwhite;
+    }
+
+  border-bottom: 1px solid $gray;
   .header-logo { 
     padding-bottom: 30px;
 
     margin-top: 14px;
     margin-left: 68px;
-  }
-
-  .header-navbar {
-    z-index: 2;
   }
 
   .navbar-buttons {
@@ -69,7 +76,7 @@
     padding: 13px;
     margin-top: 4px;
     margin-left: 0;
-    margin-right: 71px;
+    margin-right: 72px;
     
     width: 79px;
 
@@ -87,15 +94,23 @@
 }
 
 .header-about {   
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 2;
+
+  transition: all 1s;
+  &.scrolled {
+    background-color: $offwhite;
+  }
+
   .header-logo { 
     padding-bottom: 30px;
 
     margin-top: 14px;
     margin-left: 68px;
-  }
-
-  .header-navbar {
-    z-index: 2;
   }
 
   .navbar-buttons {
@@ -144,7 +159,7 @@
     padding: 13px;
     margin-top: 4px;
     margin-left: 0;
-    margin-right: 71px;
+    margin-right: 72px;
     
     width: 79px;
 
@@ -161,7 +176,7 @@
   }
 }
 
-//1199-992
+//1199-992 homepage
 @include respond-to (lg) {
   .header {   
     .header-logo {
@@ -192,7 +207,41 @@
   }
 }
 
-//991-768
+//1199-992 homepage
+@include respond-to (lg) {
+  .header-about {   
+    .header-logo {
+      width: 215px;
+
+      margin-left: 0;
+    }
+    
+    .nav-link {
+      margin-left: 0;
+
+      font-size: 12px;
+    }
+  
+    .language {
+      width: 65px;
+      
+      padding: 11px;
+
+      margin-top: 1px;
+      margin-right: 0;
+
+      font-size: 13px;
+    }
+
+    .telephone {
+      width: 136px;
+      
+      padding: 12px;
+    }
+  }
+}
+
+//991-768 homepage
 @include respond-to (md) {
   .header {   
     .header-logo {
@@ -207,9 +256,9 @@
     }
     
     .navbar-toggler {
-      position: absolute;
-      top: 13px;
-      right: 19px;
+      position: fixed;
+      top: 20px;
+      right: 31px;
     }
 
     .navbar-collapse {
@@ -230,11 +279,124 @@
     }
     
     .flex-row {
-      position: relative;
-      top: -10px;
-      left: -56px;
+      position: fixed;
+      top: 17px;
+      right: 80px;
 
       background: none;
+    }
+
+    .telephone {
+      padding: 13px;
+
+      width: 150px;
+
+      margin-top: 0;
+      margin-left:0;
+
+      font-size: 11px;
+    }
+  
+    .language {
+      padding: 13px;
+
+      width: 70px;
+
+      margin-top: 0;
+      margin-left:0;
+      margin-right: 7px;
+
+      font-size: 11px;
+    }
+  }
+}
+
+//991-768 aboutpage
+@include respond-to (md) {
+  .header-about {   
+    .header-logo {
+      width: 147px;
+
+      margin-top: 4px;
+      margin-left: 0;
+    }
+
+    .navbar-nav {
+      background-color: $gray;
+    }
+    
+    .navbar-toggler {
+      position: fixed;
+      top: 20px;
+      right: 31px;
+    }
+
+    .navbar-collapse {
+      position: absolute;
+      top: 41px;
+      right: 0;
+      left: 0;
+      bottom: 0;
+
+      width: 770px;
+
+      padding: 25px;
+      font-size: 24px;
+    }
+    
+    .nav-link {
+      padding-top: 10px;
+    }
+    
+    .flex-row {
+      position: fixed;
+      top: 17px;
+      right: 80px;
+
+      background: none;
+    }
+
+    .telephone {
+      padding: 13px;
+
+      width: 150px;
+
+      margin-top: 0;
+      margin-left:0;
+
+      font-size: 11px;
+    }
+  
+    .language {
+      padding: 13px;
+
+      width: 70px;
+
+      margin-top: 0;
+      margin-left:0;
+      margin-right: 7px;
+
+      font-size: 11px;
+    }
+  }
+}
+
+//767-576 homepage
+@include respond-to (sm) {
+  .header {   
+    .header-logo {
+      width: 147px;
+
+      margin-top: 4px;
+      margin-left: 0;
+    }
+    
+    .nav-link {
+      padding-top: 10px;
+    }
+    
+    .flex-row {
+      display: none;
     }
 
     .telephone {
@@ -262,9 +424,9 @@
   }
 }
 
-//767-576
+//767-576 aboutpage
 @include respond-to (sm) {
-  .header {   
+  .header-about {   
     .header-logo {
       width: 147px;
 
