@@ -279,3 +279,33 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .header {   
+    .header-logo {
+      width: 215px;
+
+      margin-left: 0;
+    }
+    
+    .nav-link {
+      margin-left: 0;
+
+      font-size: 12px;
+    }
+  
+    .language {
+      width: 65px;
+      
+      padding: 12px;
+
+      margin-right: 0;
+    }
+
+    .telephone {
+      width: 136px;
+      
+      padding: 12px;
+    }
+  }
+}

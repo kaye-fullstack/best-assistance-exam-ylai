@@ -778,3 +778,86 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .footer {   
+    .first-row {
+      .mobile-app {
+        right: 7px;
+      }
+
+      .title {
+        margin-left: 15px;
+      }
+
+      .description {
+        margin-left: 15px;
+        margin-right: 85px;
+      }
+
+      .app-store-img {
+        margin-left: 15px;
+      }
+    }
+
+    .second-row {
+      .column:first-child {
+        .app-icon {
+          margin-left: 25px;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-right: 170px;
+        }
+      }
+  
+      .column:nth-child(2) {
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 26px;
+        }
+
+        .subtitle {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+        
+        .app-link {
+          margin-right: 120px;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 25px;
+        }
+
+        .subtitle {
+          margin-top: 40px;
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-top: 47px;
+          margin-right: 185px;
+        }
+      }
+    }
+  
+    .third-row {
+      .footer-list {
+        margin-left: 0;
+      }
+
+      .icons {
+        padding-left: 127px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
