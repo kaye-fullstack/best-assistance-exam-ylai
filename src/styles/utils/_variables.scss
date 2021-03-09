@@ -10,14 +10,6 @@ $font-opensansbold: 'OpenSans-Bold';
 $font-opensanssemibold: 'OpenSans-Semibold';
 $font-awesome: 'FontAwesome';
 
-//Colors
-$ink: #000;
-$golden: #f8a845;
-$offwhite: #fffef9;
-$seablue: #2574b6;
-$greeny: #67bd96;
-$gray: #E2E2E2;
-
 /// @type List
 $text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
@@ -50,3 +42,11 @@ $dark-grey: #444 !default;
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '../assets/' !default;
+
+//Colors
+$ink: #000;
+$golden: #f8a845;
+$offwhite: #fffef9;
+$seablue: #2574b6;
+$greeny: #67bd96;
+$gray: #E2E2E2;

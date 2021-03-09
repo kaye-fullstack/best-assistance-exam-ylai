@@ -16,7 +16,7 @@
       padding-left: 22px;
       padding-right: 22px;
       
-      background-color: #fffef9;
+      background-color: $offwhite;
       
       list-style: none;
       line-height: 2.5;
@@ -30,6 +30,7 @@
       width: 10px;
     }
   }
+
   .introduction {
     position: relative;
     top: -60px;
@@ -48,8 +49,7 @@
     }
 
     .swiper-pagination-bullet-active {
-      background: $offwhite;
-      opacity: 1.2;
+      background-color: $white;
     }
 
     .swiper-pagination-bullet {
@@ -59,12 +59,10 @@
 
       margin: 4px;
 
-      background-color: $gray;
-
       border-radius: 100%;
       opacity: 1.2;
     }
-
+ 
     .banner-title {
       padding-top: 319px;
       font-family: $font-opensansbold;
@@ -122,6 +120,7 @@
       margin-right: 0;
     }
   }  
+
   .our-mission {
     margin-top: 10px;
     .our-mission-img {
@@ -218,6 +217,11 @@
         border-radius: 30px;
 
         outline: 0;
+
+        :hover {
+          background-color: black;
+          opacity: .5px;
+        }
       }
 
       .button:nth-child(2) {        
@@ -230,11 +234,17 @@
         color: $offwhite;
         text-decoration: none;
 
-        background-image: url('../assets/images/buttons.fw.png');
+        background-image: linear-gradient(to right top, #72b3f2, #53a0f0, #358ced, #1777e8, #0061e0);
         border: none;
         border-radius: 30px;
 
         outline: 0;
+
+        .button-text {
+          :hover {
+            color: black;
+          }
+        }
       }
     }
 
@@ -300,6 +310,7 @@
       }
     }
   }
+
   .healthy-reading {
     .title {
       margin-top: 119px;
@@ -560,7 +571,7 @@
       color: $offwhite;
       text-decoration: none;
 
-      background-image: url('../assets/images/buttons.fw.png');
+      background-image: linear-gradient(to right top, #72b3f2, #53a0f0, #358ced, #1777e8, #0061e0);
       
       border-radius: 30px;
       border: 0;
@@ -568,6 +579,7 @@
       outline: 0;
     }
   }
+
   .information-system {
     padding-bottom: 100px;
     margin-top: 105px;
@@ -635,25 +647,26 @@
     }
   }
 
-    .solutions-btn {
-      position: relative;
-      top: 83px;
-      margin-left: 26px;
+  .solutions-btn {
+    position: relative;
+    top: 83px;
+    margin-left: 26px;
 
-      width: 100%;
+    width: 100%;
 
-      padding: 18px 52px;
-      
-      font-family: $font-opensanssemibold;
-      font-size: 15px;
-      color: $offwhite;
+    padding: 18px 52px;
+    
+    font-family: $font-opensanssemibold;
+    font-size: 15px;
+    color: $offwhite;
+    text-decoration: none;
 
-      background-image: url('../assets/images/buttons.fw.png');
-      border-radius: 30px;
-      border: none;
+    background-image: linear-gradient(to right top, #72b3f2, #53a0f0, #358ced, #1777e8, #0061e0);
+    border-radius: 30px;
+    border: none;
 
-      outline: 0;
-    }
+    outline: 0;
+  }
 
     .bottom-bg-image {
       position: absolute;
@@ -680,13 +693,16 @@
         width: 100%;
         height: 100%;
       }
+
       .swiper-pagination {
-        margin: 17px 89px;
-      }
+        left: 500px;
+        right: 500px;
+       }
+  
       .swiper-pagination-bullet-active {
-        background: $offwhite;
-        opacity: 1.2;
+        background-color: $white;
       }
+  
       .swiper-pagination-bullet {
         display: inline-block;
         width: 8px;
@@ -694,31 +710,34 @@
   
         margin: 4px;
   
-        background-color: $gray;
-  
         border-radius: 100%;
         opacity: 1.2;
       }
+
       .banner-title {
         padding-top: 267px;
         font-family: $font-opensansbold;
         color: $offwhite;
       }
+      
       .title {
         margin-left: 89px;
         margin-top: 69px;
   
         font-size: 60px;
       }
+
       .banner-icons {
         padding-top: 84px;
         padding-left: 24px;
       }
+
       .img-icon-mission,
       .img-icon-feedback,
       .img-icon-contact {
         padding-right: 63px;
       }
+      
       .icon-title {
         display: flex;
         flex-direction: row;
@@ -736,6 +755,7 @@
         font-family: $font-opensansbold;
         text-align: center;
       }
+
       .icon-text {
         padding-left: 66px;
   
@@ -743,6 +763,7 @@
         font-size: 15px;
         color: $offwhite;
       }
+
       .icon-banner {
         padding-left: 61px;
         
@@ -750,6 +771,7 @@
         margin-right: 0;
       }
     } 
+
     .our-mission { 
       .our-mission-img {
         width: 265px;
@@ -846,6 +868,7 @@
         }
       }
     }
+
     .healthy-reading {
       .title {
         margin-left: 50px;
@@ -965,6 +988,7 @@
         outline: 0;
       }
     }
+
     .information-system {
       background-position: -111px;
       padding-bottom: 190px;
@@ -1004,19 +1028,19 @@
           width: 25px;
         }
       
-      .information-text {
-        top: 15px;
+        .information-text {
+          top: 15px;
 
-        font-size: 16px;
+          font-size: 16px;
+        }
       }
-    }
   
       .solutions-btn {
         padding: 18px 48px;
 
         font-size: 14px;
       }
-  
+
       .bottom-bg-image {
         left: 194px;
         bottom: -239px;
@@ -1074,17 +1098,28 @@
       }
 
       .swiper-pagination {
-        top: 433px;
+        top: 466px;
 
         margin: 0 2px;
-        margin-left: 13px;
+        margin-left: 11px;
       }
 
-      .swiper-pagination-bulelt {
-        width: 4px;
-        height: 4px;
+      .swiper-pagination-bullet-active {
+        background-color: $white;
+      }
+  
+      .swiper-pagination-bullet {
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+  
+        margin: 4px;
+  
+        border-radius: 100%;
+        opacity: 1.2;
       }
     } 
+
     .our-mission { 
       margin-top: 25px;
       .our-mission-img {
@@ -1220,6 +1255,7 @@
         }
       }
     }
+
     .healthy-reading {
       .title {
         margin-top: 531px;
@@ -1357,11 +1393,12 @@
         
         margin-left: 18px;
   
-        padding: 12px 38px;
+        padding: 16px 38px;
 
         font-size: 13px;
       }
     }
+
     .information-system {
       height: 853px;
 
@@ -1411,15 +1448,15 @@
           width: 25px;
         }
       
-      .information-text {
-        top: 21px;
+        .information-text {
+          top: 21px;
 
-        padding-left: 33px;
+          padding-left: 33px;
 
-        font-size: 18px;
+          font-size: 18px;
+        }
       }
-    }
-  
+    
       .solutions-btn {
         top: 43px;
 
@@ -1441,6 +1478,7 @@
   .social-side-bar {
     display: none;
   }
+
   .home {
     transition: all .2s ease-in-out;
     .introduction {
@@ -1497,6 +1535,7 @@
         height: 4px;
       }
     } 
+
     .our-mission { 
       margin-top: -27px;
       .our-mission-img {
@@ -1629,6 +1668,7 @@
         }
       }
     }
+
     .healthy-reading {
       .title {
         margin-top: 531px;
@@ -1768,6 +1808,7 @@
         font-size: 13px;
       }
     }
+
     .information-system {
       height: 1131px;
 
@@ -1826,14 +1867,14 @@
           width: 25px;
         }
       
-      .information-text {
-        top: 21px;
+        .information-text {
+          top: 21px;
 
-        padding-left: 33px;
+          padding-left: 33px;
 
-        font-size: 18px;
+          font-size: 18px;
+        }
       }
-    }
   
       .solutions-btn {
         display: none;
@@ -1851,6 +1892,7 @@
   .social-side-bar {
     display: none;
   }
+
   .home {
     transition: all .2s ease-in-out;
     .introduction {
@@ -1908,6 +1950,7 @@
         height: 5px;
       }
     } 
+
     .our-mission { 
       margin-top: -27px;
       .our-mission-img {
@@ -2055,6 +2098,7 @@
         }
       }
     }
+
     .healthy-reading {
       .title {
         margin-top: 406px;
@@ -2229,6 +2273,7 @@
         font-size: 13px;
       }
     }
+
     .information-system {
       height: 796px;
 
@@ -2291,16 +2336,16 @@
           width: 25px;
         }
       
-      .information-text {
-        top: 7px;
+        .information-text {
+          top: 7px;
 
-        padding-left: 4px;
-        margin-bottom: 13px;
-        margin-right: 12px;
+          padding-left: 4px;
+          margin-bottom: 13px;
+          margin-right: 12px;
 
-        font-size: 14px;
+          font-size: 14px;
+        }
       }
-    }
   
       .solutions-btn {
         display: none;
@@ -2315,10 +2360,9 @@
 
 @media (max-width: 1530px) {
   .home {
-
     .our-mission {
       .mission-provide-solutions {
-        width: 647px;
+        width: 754px;
       }
     }
    
@@ -2330,10 +2374,22 @@
   }
 }
 
-@media (max-width: 575px) and (min-width: 400px) {
-  .social-side-bar {
-    display: none;
+@media (max-width: 1200px) {
+  .home {
+    .our-mission {
+      .mission-provide-solutions {
+        width: 754px;
+      }
+    }
+   
+    .information-system {  
+      .bottom-bg-image {
+        left: 373px;
+      }
+    }
   }
+
+
   .home {
     transition: all .2s ease-in-out;
     .introduction {
@@ -2348,6 +2404,7 @@
 
         margin-top: 307px;
       }
+
       .title {
         margin-left: 16px;
         margin-top: 80px;
@@ -2385,11 +2442,12 @@
         margin-left: 13px;
       }
 
-      .swiper-pagination-bulelt {
+      .swiper-pagination-bullet {
         width: 4px;
         height: 4px;
       }
     } 
+
     .our-mission { 
       margin-top: -27px;
       .our-mission-img {
@@ -2526,6 +2584,7 @@
         }
       }
     }
+
     .healthy-reading {
       .title {
         margin-top: 531px;
@@ -2665,6 +2724,7 @@
         font-size: 13px;
       }
     }
+
     .information-system {
       height: 1131px;
 
@@ -2724,14 +2784,433 @@
           width: 25px;
         }
       
-      .information-text {
-        top: 21px;
+        .information-text {
+          top: 21px;
 
-        padding-left: 33px;
+          padding-left: 33px;
+
+          font-size: 18px;
+        }
+      }
+  
+      .solutions-btn {
+        display: none;
+      }
+  
+      .bottom-bg-image {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) and (min-width: 400px) {
+  .social-side-bar {
+    display: none;
+  }
+
+  .home {
+    transition: all .2s ease-in-out;
+    .introduction {
+      top: -89px;
+      height: 604px;
+
+      padding-bottom: 0;
+
+      background-position: center;
+      .banner-title {
+        padding-top: 0;
+
+        margin-top: 307px;
+      }
+
+      .title {
+        margin-left: 16px;
+        margin-top: 80px;
+
+        font-size: 25px;
+      }
+
+      .banner-icons {
+        padding-top: 70px;
+        padding-left: 0;
+        margin-left: -24px;
+      }
+
+      .icon-title {
+        margin-left: -31px;
+      }
+
+      .icon-text {
+        padding-left: 62px;
+
+        font-size: 12px;
+      }
+
+      .icon-banner {
+        padding-left: 30px;
+        
+        margin-left: 16px;
+        margin-right: 0;
+      }
+
+      .swiper-pagination {
+        top: 433px;
+
+        margin: 0 2px;
+        margin-left: 13px;
+      }
+
+      .swiper-pagination-bulelt {
+        width: 4px;
+        height: 4px;
+      }
+    } 
+
+    .our-mission { 
+      margin-top: -27px;
+      .our-mission-img {
+        display: none;
+      }
+  
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+  
+        margin-top: -85px;
+        margin-left: 0 ;
+        margin-right: 0;
+      }
+  
+      .column:first-child {
+        display: none;
+      }
+  
+      .column:nth-child(2) {
+        flex: 0 24%;
+
+        width: 33%;
+
+        margin-top: 54px;
+        margin-bottom: 2%;
+      }
+  
+      .column:nth-child(3) {
+        flex: 0 41%;
+
+        width: 385px;
+        height: 2px;
+
+        margin-top: 54px;
+        margin-bottom: 2%;
+      }
+
+      .provide-solutions {
+        display: flex;
+      }
+  
+      .title {
+        width: 200px;
+
+        padding-bottom: 0;
+        margin-top: -6px;
+
+        margin-left: 47px;
+
+        font-size: 30px;
+      }
+
+      .mission-description {
+        ::before {
+          content: '';
+          top: 21px;
+          left: 13px;
+        }
+      }
+      
+      .description {
+        width: 335px;
+        padding-top: 18px;
+        padding-left: 50px;
+
+        margin-right: -90px;
 
         font-size: 18px;
       }
+  
+      .mission-buttons {
+        position: relative;
+        top: -16px;
+        left: -5px;
+
+        width: 307px;
+
+        margin-top: 0;
+        margin-left: 0;
+        .button:first-child {
+          padding: 12px 24px;
+          margin-left: 0;
+          
+          font-size: 10px;
+        }
+  
+        .button:nth-child(2) {   
+          padding: 14px 40px;
+
+          margin-left: 3px;
+
+          font-size: 12px;
+
+          line-height: 7.5;
+        }
+      }
+  
+      .mission-provide-solutions {
+        top: -48px;
+        left: -6px;
+  
+        width: 431px;
+        height: 554px;
+
+        background-size: cover;
+
+        .title-head {
+          top: 91px;
+          
+          padding-left: 32px;
+
+          font-size: 28px;
+          text-align: center;
+        }
+        
+        .title-provide {
+          top: 62px;
+        }
+
+        .icon {
+          padding-left: 33px;
+        }
+  
+        .title {
+          width: 309px;
+
+          padding-left: 50px;
+          margin-top: 60px;
+        }
+  
+        .subtitle {
+          padding-left: 96px;
+        }
+      }
     }
+
+    .healthy-reading {
+      .title {
+        margin-top: 531px;
+        margin-left: 23px;
+        margin-bottom: 2px;
+
+        font-size: 30px;
+      }
+  
+      .subtitle {
+        width: 365px;
+        margin-left: 21px;
+
+        font-size: 16px;
+      }
+  
+      .FilterBy {
+        display: none;
+      }
+  
+      .swiper-container {
+        top: -67px;
+        left: 13px;
+
+        height: 362px;
+
+        margin-bottom: -34px;
+      }
+  
+      .swiper-slide:first-child {
+        width: 50%;
+
+        background-image: url('../assets/images/health-first.5.fw.png');
+  
+        .description {
+          margin-top: 229px;
+          margin-left: 32px;
+          margin-right: 10%;
+
+          font-size: 24px;
+        }
+
+        .date {
+          margin-bottom: 16px;
+        }
+  
+        .category {
+          height: 22px;
+  
+          margin-top: 0;
+          margin-left: 32px;
+        }
+      }
+  
+      .swiper-slide:nth-child(2) {
+        width: 50%;
+
+        background-image: url('../assets/images/health-second.5.fw.png');
+        background-size: cover;
+  
+        .description {
+          margin-top: 203px;
+          margin-bottom: 2px;
+
+          font-size: 25px;
+        }
+
+        .date {
+          margin-top: 15px;
+          margin-left: 25px;
+          margin-bottom: 2px;
+        }
+  
+        .category {
+          height: 26px;
+  
+          margin-top: 9px;
+          margin-left: 23px;
+        }
+      }
+  
+      .swiper-slide:nth-child(3) {
+        width: 50%;
+
+        background-image: url('../assets/images/health-third.5.fw.png');
+        background-size: cover;
+  
+        .description {
+          margin-top: 219px;
+          margin-left: 25px;
+          margin-right: 48px;
+
+          font-size: 28px;
+        }
+
+        .date {
+          margin-top: 10px;
+        }
+  
+        .category {
+          height: 24px;
+
+          margin-top: 19px;
+          margin-left: 22px;
+        }
+      }
+  
+      .swiper-slide:nth-child(4) {
+        width: 50%;
+
+        background-image: url('../assets/images/health-fourth.fw.png');
+        background-size: cover;
+  
+        .description {
+          margin-top: 199px;
+          margin-left: 12px;
+          margin-right: 26px;
+
+          font-size: 25px;
+        }
+  
+        .category {
+          height: 19px;
+  
+          margin-top: 0;
+          margin-left: 31px;
+        }
+      }
+
+      .journal-btn {
+        width: 100%;
+        
+        margin-left: 18px;
+  
+        padding: 19px 65px;
+
+        font-size: 13px;
+      }
+    }
+
+    .information-system {
+      height: 1131px;
+
+      padding-bottom: 0;
+      margin-top: 35px;
+
+      background-position: -154px;
+      .information-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 332px;
+        margin-left: 0;
+      }
+
+      .information-img img {
+        width: 350px;
+      }
+  
+      .title {
+        position: absolute;
+        top: -447px;
+
+        margin-top: 26px;
+        margin-left: 31px;
+
+        font-size: 30px;
+      }
+  
+      .subtitle {
+        position: absolute;
+        top: -345px;
+
+        margin-top: -8px;
+        margin-left: 30px;
+
+        font-size: 31px;
+      }
+  
+      .description {
+        margin-top: 46px;
+        margin-left: 40px;
+        margin-right: 50px;
+  
+        font-size: 15px;
+      }
+  
+      .list-information {
+        list-style-type: none;
+        ::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -9px;
+  
+          width: 25px;
+        }
+      
+        .information-text {
+          top: 21px;
+
+          padding-left: 33px;
+
+          font-size: 18px;
+        }
+      }
   
       .solutions-btn {
         display: none;
@@ -2748,6 +3227,7 @@
   .social-side-bar {
     display: none;
   }
+
   .home {
     transition: all .2s ease-in-out;
     .introduction {
@@ -2805,6 +3285,7 @@
         height: 5px;
       }
     } 
+
     .our-mission { 
       margin-top: -27px;
       .our-mission-img {
@@ -2952,6 +3433,7 @@
         }
       }
     }
+
     .healthy-reading {
       .title {
         margin-top: 406px;
@@ -3126,6 +3608,7 @@
         font-size: 13px;
       }
     }
+    
     .information-system {
       height: 796px;
 
@@ -3188,16 +3671,16 @@
           width: 25px;
         }
       
-      .information-text {
-        top: 7px;
+        .information-text {
+          top: 7px;
 
-        padding-left: 4px;
-        margin-bottom: 13px;
-        margin-right: 12px;
+          padding-left: 4px;
+          margin-bottom: 13px;
+          margin-right: 12px;
 
-        font-size: 14px;
+          font-size: 14px;
+        }
       }
-    }
   
       .solutions-btn {
         display: none;

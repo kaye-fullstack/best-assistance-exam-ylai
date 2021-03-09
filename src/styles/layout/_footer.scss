@@ -296,15 +296,14 @@
 //991-786
 @include respond-to (md) {
   .footer {   
-    height: auto;
+    height: 547px;
 
     margin-top: 127px;
     .first-row {
-      height: 131px;
-      border-bottom: none;
+      height: 235px;
       .mobile-app {
         top: -95px;
-        right: 72px;
+        right: 53px;
 
         width: 288px;
       }
@@ -342,20 +341,20 @@
     }
 
     .second-row {
-      height: 355px;
+      height: 0;
       .column:first-child {
         border-right: none;
 
         .app-icon {
           width: 42px;
 
-          margin-top: 126px;
+          margin-top: 0;
           margin-left: 9px;
-          margin-bottom: -132px;
+          margin-bottom: -50px;
         }
   
         .subtitle {
-          margin-top: 145px;
+          margin-top: 42px;
           margin-left: 13px;
 
           font-size: 13px;
@@ -375,7 +374,7 @@
         .app-icon {
           width: 50px;
 
-          margin-top: 115px;
+          margin-top: 8px;
           margin-left: 29px;
         }
         .subtitle {
@@ -398,7 +397,7 @@
         .app-icon {
           width: 32px;
 
-          margin-top: 129px;
+          margin-top: 23px;
           margin-left: 47px;
         }
         .subtitle {
@@ -429,9 +428,11 @@
 
       .koein {
         position: relative;
-        left: -70px;
+        top: 228px;
+        left: -78px;
 
         font-family: $font-opensans;
+        font-size: 12px;
         color: $offwhite;
       }
 
