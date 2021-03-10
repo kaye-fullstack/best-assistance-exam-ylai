@@ -19,8 +19,27 @@
 
   transition: all 1s;
   &.scrolled {
+    position: fixed;
+    top: -18px;
+
     background-color: $offwhite;
+
+    .header-logo {
+      padding-bottom: 10px;
     }
+
+    .nav-link {
+      margin-top: 24px;
+    }
+  
+    .telephone {
+      margin-top: 21px;
+    }
+  
+    .language {
+      margin-top: 21px;
+    }
+  }
 
   border-bottom: 1px solid $gray;
   .header-logo { 
@@ -73,10 +92,10 @@
   }
 
   .language {
-    padding: 13px;
-    margin-top: 4px;
+    padding: 14px 20px ;
+    margin-top: 3px;
     margin-left: 0;
-    margin-right: 72px;
+    margin-right: 54px;
     
     width: 79px;
 
@@ -90,6 +109,13 @@
     border-radius: 25px;
 
     outline: 0;
+
+    -webkit-appearance: none;
+  }
+
+  .arrow-header-lang {
+    position: relative;
+    left: -91px;
   }
 }
 
@@ -111,9 +137,13 @@
     .language {
       width: 62px;
       
-      padding: 12px;
+      padding: 10px;
 
-      margin-right: 0;
+      margin-right: -34px;
+    }
+
+    .arrow-header-lang {
+      left: 8px;
     }
 
     .telephone {
@@ -127,6 +157,21 @@
 //991-768
 @include respond-to (md) {
   .header {   
+    &.scrolled { 
+      top: 0;
+
+      .header-logo {
+        padding-bottom: 10px;
+      }
+    
+      .telephone {
+        margin-top: 0;
+      }
+    
+      .language {
+        margin-top: 0;
+      }
+   }
     .header-logo {
       width: 147px;
 
@@ -170,7 +215,7 @@
     }
 
     .telephone {
-      padding: 13px;
+      padding: 14px;
 
       width: 150px;
 
@@ -181,22 +226,33 @@
     }
   
     .language {
-      padding: 13px;
+      padding: 14px 21px;
 
       width: 70px;
 
       margin-top: 0;
       margin-left:0;
-      margin-right: 7px;
+      margin-right: -8px;
 
       font-size: 11px;
+    }
+
+    .arrow-header-lang {
+      left: -20px;
     }
   }
 }
 
 //767-576
 @include respond-to (sm) {
-  .header {   
+  .header { 
+    &.scrolled { 
+      top: 0;
+
+      .header-logo {
+        padding-bottom: 10px;
+      }
+   }  
     .header-logo {
       width: 147px;
 
@@ -206,6 +262,10 @@
     
     .nav-link {
       padding-top: 10px;
+    }
+
+    .navbar-nav {
+      background-color: $offwhite;
     }
     
     .flex-row {
@@ -238,8 +298,15 @@
 }
 
 //320
-@include respond-to (xs) {
-  .header {   
+@media (max-width: 320px) {
+  .header {       
+    &.scrolled { 
+      top: 0;
+
+      .header-logo {
+        padding-bottom: 10px;
+      }
+    } 
     .header-logo {
       width: 147px;
 
@@ -250,37 +317,54 @@
     .nav-link {
       padding-top: 10px;
     }
+
+    .navbar-nav {
+      background-color: $offwhite;
+    }
+
+    .navbar-toggler {
+      position: fixed;
+      top: 22px;
+      right: 8px;
+    }
     
     .flex-row {
       display: none;
     }
+  }
+}
 
-    .telephone {
-      padding: 13px;
+@media (max-width: 575px) and (min-width: 400px) {
+  .header{
+    &.scrolled { 
+    top: 0;
 
-      width: 150px;
-
-      margin-top: 0;
-      margin-left:0;
-
-      font-size: 11px;
-    }
-  
-    .language {
-      padding: 14px;
-
-      width: 70px;
-
-      margin-top: 0;
-      margin-left:0;
-      margin-right: 7px;
-
-      font-size: 11px;
+      .header-logo {
+        padding-bottom: 10px;
+      }
+    }  
+    .navbar-nav {
+      background-color: $offwhite;
     }
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 399px) and (min-width: 328px) {
+  .header{
+    &.scrolled { 
+    top: 0;
+
+      .header-logo {
+        padding-bottom: 10px;
+      }
+    }  
+    .navbar-nav {
+      background-color: $offwhite;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
   .header {   
     .header-logo {
       width: 215px;
@@ -295,11 +379,15 @@
     }
   
     .language {
-      width: 65px;
+      width: 62px;
       
-      padding: 12px;
+      padding: 10px;
 
-      margin-right: 0;
+      margin-right: -34px;
+    }
+
+    .arrow-header-lang {
+      left: 8px;
     }
 
     .telephone {

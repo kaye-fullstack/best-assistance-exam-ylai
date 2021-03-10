@@ -212,16 +212,11 @@
         color: $offwhite;
         text-decoration: none;
         
-        background: $golden;
+        background-image: linear-gradient(to right top, #72b3f2, #53a0f0, #358ced, #1777e8, #0061e0);
         border: none;
         border-radius: 30px;
 
         outline: 0;
-
-        :hover {
-          background-color: black;
-          opacity: .5px;
-        }
       }
 
       .button:nth-child(2) {        
@@ -234,25 +229,20 @@
         color: $offwhite;
         text-decoration: none;
 
-        background-image: linear-gradient(to right top, #72b3f2, #53a0f0, #358ced, #1777e8, #0061e0);
+        background-color: $golden;
         border: none;
         border-radius: 30px;
 
         outline: 0;
-
-        .button-text {
-          :hover {
-            color: black;
-          }
         }
       }
-    }
 
     .mission-provide-solutions {
       position: relative;
       top: -161px;
-      right: 96px;
-    
+      right: 102px;
+
+      width: 648px;
       height: 690px;
 
       background: url('../assets/images/provide-img.fw.png');
@@ -263,7 +253,7 @@
         position: relative;
         top: 158px;
 
-        padding-left: 84px;
+        padding-left: 92px;
         
         margin-bottom: 35px;
         
@@ -274,7 +264,7 @@
 
       .title-provide {
         position: relative;
-        top: 149px;
+        top: 148px;
 
         color: $offwhite;
       }
@@ -283,16 +273,16 @@
         position: absolute;
 
         padding-top: 5px;
-        padding-left: 90px;
+        padding-left: 96px;
         
         width: 73px;
         
       }
 
       .title {
-        padding-left: 122px;
+        padding-left: 128px;
         
-        margin-top: 44px;
+        margin-top: 45px;
 
         font-size: 18px;
         font-family: $font-opensansbold;
@@ -300,9 +290,9 @@
 
       .subtitle {
         position: absolute;
-        top: 28px;
+        top: 26px;
 
-        padding-left: 161px;
+        padding-left: 168px;
 
         margin-left: 0;
 
@@ -315,7 +305,7 @@
     .title {
       margin-top: 119px;
       margin-left: 85px;
-      margin-bottom: 7px;
+      margin-bottom: 5px;
 
       font-family: $font-opensansbold;
       font-size: 40px;
@@ -333,30 +323,37 @@
     .FilterBy {
       display: block;
 
-      padding-top: 19px;
-      padding-right: 35px;
+      padding-top: 20px;
+      padding-right: 59px;
       padding-bottom: 15px;
       padding-left: 25px;
-      margin-top: 161px;
-      margin-left: 534px;
+      margin-top: 131px;
+      margin-left: 538px;
 
       font-size: 15px;
       font-family: $font-opensansbold;
       color: $ink;
-      text-align: center;
 
-      background-color: $gray;
+      background-color: $lightgray;
       
       border: 0;
       border-radius: 25px;
 
       outline: 0;
+
+      -webkit-appearance: none;
+    }
+
+    .arrow-filter-button {
+      position: relative;
+      top: 175px;
+      left: 696px;
     }
 
     .swiper-container {
       top: -53px;
       bottom: 0;
-      left: 0;
+      left: 84px;
 
       height: 514px;
 
@@ -582,17 +579,17 @@
 
   .information-system {
     padding-bottom: 100px;
-    margin-top: 105px;
+    margin-top: 100px;
 
     background-image:url('../assets/images/information-bg.fw.png');
     background-size: cover;
     .information-img {
-      margin-top: 213px;
+      margin-top: 219px;
       margin-left: 104px;
     }
 
     .title {
-      margin-top: 203px;
+      margin-top: 209px;
       margin-left: 23px;
 
       font-family: $font-opensansbold;
@@ -628,7 +625,7 @@
         left: -17px;
 
         width: 30px;
-        height: 28px;
+        height: 34px;
 
         background: url(../../assets/images/check.fw.png) no-repeat center;
         background-size: 100%;
@@ -693,11 +690,10 @@
         width: 100%;
         height: 100%;
       }
-
-      .swiper-pagination {
-        left: 500px;
-        right: 500px;
-       }
+  
+       .swiper-pagination {
+        margin: 17px 89px;
+      }
   
       .swiper-pagination-bullet-active {
         background-color: $white;
@@ -774,7 +770,7 @@
 
     .our-mission { 
       .our-mission-img {
-        width: 265px;
+        width: 235px;
 
         margin-left: 0;
       }
@@ -808,7 +804,7 @@
       }
   
       .column:nth-child(3) {
-        flex: 1 24%;
+        flex: 2 24%;
         margin-top: 54px;
         margin-bottom: 2%;
         width: 33%;
@@ -848,11 +844,13 @@
       }
   
       .mission-provide-solutions {
+        width: 100%;
+
         top: -189px;
         right: 6px;
   
         .title-head {
-          padding-left: 70px;
+          padding-left: 35px;
         }
         
         .icon {
@@ -882,6 +880,10 @@
   
       .FilterBy {
         margin-left: 250px;
+      }
+
+      .arrow-filter-button {
+        left: 405px;
       }
   
       .swiper-container {
@@ -972,7 +974,7 @@
       .journal-btn {
         width: 100%;
         
-        margin-left: 85px;
+        margin-left: 20px;
   
         padding: 19px 60px;
         
@@ -1042,10 +1044,10 @@
       }
 
       .bottom-bg-image {
-        left: 194px;
+        left: 264px;
         bottom: -239px;
 
-        width: 300px;
+        width: 232px;
       }
     }
   }
@@ -1121,7 +1123,7 @@
     } 
 
     .our-mission { 
-      margin-top: 25px;
+      margin-top: 23px;
       .our-mission-img {
         width: 253px;
 
@@ -1157,22 +1159,23 @@
       }
   
       .column:nth-child(3) {
-        flex: 0 41%;
+        flex: 1 44%;
 
-        width: 770px;
         height: 2px;
 
         margin-top: 54px;
+        margin-left: -22px;
         margin-bottom: 2%;
+        margin-right: -8px;
       }
   
       .title {
         width: 200px;
 
         padding-bottom: 0;
-        margin-top: -6px;
+        margin-top: -4px;
 
-        margin-left: 47px;
+        margin-left: 55px;
 
         font-size: 30px;
       }
@@ -1181,15 +1184,16 @@
         ::before {
           content: '';
           top: 21px;
-          left: 13px;
+          left: 16px;
         }
       }
       
       .description {
-        width: 335px;
-        padding-top: 18px;
-        padding-left: 50px;
+        width: 353px;
+        padding-top: 17px;
+        padding-left: 58px;
 
+        margin-top: 0;
         margin-right: -90px;
 
         font-size: 18px;
@@ -1198,55 +1202,60 @@
       .mission-buttons {
         width: 317px;
 
-        margin-top: 12px;
+        margin-top: 16px;
         margin-left: 189px;
         .button:first-child {
-          padding: 17px 32px;
-          margin-left: -144px;
+          padding: 19px 28px;
+          margin-left: -142px;
           
-          font-size: 13px;
+          font-size: 14.5px;
         }
   
         .button:nth-child(2) {   
           padding: 19px 63px;
 
-          margin-left: 13px;
+          margin-left: 9px;
 
-          font-size: 13px;
+          font-size: 14.5px;
 
           line-height: 7.5;
         }
       }
   
+      .provide-solutions {
+        margin-left: -15px;
+      }
+
       .mission-provide-solutions {
-        top: -48px;
-        left: -5px;
+        top: -52px;
+        left: 6px;
+        right: 0;
   
-        width: 751px;
-        height: 554px;
+        width: 100%;
+        height: 553px;
 
         background-size: cover;
 
         .title-head {
-          top: 91px;
+          top: 92px;
           
-          padding-left: 87px;
+          padding-left: 100px;
 
           font-size: 30px;
         }
         
         .title-provide {
-          top: 62px;
+          top: 64px;
         }
 
         .icon {
-          padding-left: 87px;
+          padding-left: 98px;
         }
   
         .title {
           width: 309px;
 
-          padding-left: 112px;
+          padding-left: 116px;
           margin-top: 60px;
         }
   
@@ -1258,31 +1267,35 @@
 
     .healthy-reading {
       .title {
-        margin-top: 531px;
+        margin-top: 526px;
         margin-left: 23px;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
 
         font-size: 30px;
       }
   
       .subtitle {
-        width: 567px;
-        margin-left: 21px;
+        width: 615px;
+        margin-left: 24px;
 
-        font-size: 16px;
+        font-size: 18px;
       }
   
       .FilterBy {
         display: none;
       }
+
+      .arrow-filter-button {
+        display: none;
+      }
   
       .swiper-container {
-        top: -67px;
-        left: 13px;
+        top: -68px;
+        left: 14px;
 
-        height: 362px;
+        height: 361px;
 
-        margin-bottom: -34px;
+        margin-bottom: -35px;
       }
   
       .swiper-slide:first-child {
@@ -1393,14 +1406,14 @@
         
         margin-left: 18px;
   
-        padding: 16px 38px;
+        padding: 14px 44px;
 
-        font-size: 13px;
+        font-size: 11px;
       }
     }
 
     .information-system {
-      height: 853px;
+      height: 980px;
 
       padding-bottom: 0;
       margin-top: 35px;
@@ -1408,7 +1421,7 @@
       background-position: -118px;
   
       .information-img {
-        margin-top: 141px;
+        margin-top: 145px;
         margin-left: 33px;
       }
 
@@ -1418,23 +1431,27 @@
   
       .title {
         margin-top: 26px;
-        margin-left: 31px;
+        margin-left: 32px;
 
         font-size: 30px;
       }
   
       .subtitle {
         margin-top: -8px;
-        margin-left: 30px;
+        margin-left: 29px;
 
         font-size: 31px;
       }
   
       .description {
-        margin-top: 15px;
-        margin-right: 50px;
+        margin-top: 16px;
+        margin-left: 29px;
+        margin-right: 54px;
   
-        font-size: 15px;
+        font-size: 17px;
+        letter-spacing: 0;
+
+        line-height: 1.7;
       }
   
       .list-information {
@@ -1442,8 +1459,8 @@
         ::before {
           content: '';
           position: absolute;
-          top: 0;
-          left: -9px;
+          top: -6px;
+          left: -11px;
   
           width: 25px;
         }
@@ -1556,7 +1573,7 @@
       }
   
       .column:nth-child(2) {
-        flex: 0 24%;
+        flex: 0 45%;
 
         width: 33%;
 
@@ -1565,13 +1582,13 @@
       }
   
       .column:nth-child(3) {
-        flex: 0 41%;
+        flex: 3 65%;
 
         width: 770px;
         height: 2px;
 
-        margin-top: 54px;
-        margin-bottom: 2%;
+        margin-left: -13px;
+        margin-right: -13px;
       }
 
       .provide-solutions {
@@ -1632,9 +1649,9 @@
   
       .mission-provide-solutions {
         top: -48px;
-        left: -6px;
+        left: 0;
   
-        width: 560px;
+        width: 100%;
         height: 554px;
 
         background-size: cover;
@@ -1686,6 +1703,10 @@
       }
   
       .FilterBy {
+        display: none;
+      }
+
+      .arrow-filter-button {
         display: none;
       }
   
@@ -1887,8 +1908,7 @@
   }
 }
 
-//320
-@include respond-to (xs) {
+@media (max-width: 320px) {
   .social-side-bar {
     display: none;
   }
@@ -1897,7 +1917,7 @@
     transition: all .2s ease-in-out;
     .introduction {
       top: -89px;
-      height: 520px;
+      height: 610px;
 
       padding-bottom: 0;
 
@@ -1905,7 +1925,7 @@
       .banner-title {
         padding-top: 0;
 
-        margin-top: 217px;
+        margin-top: 311px;
       }
       .title {
         margin-left: 0;
@@ -1938,14 +1958,14 @@
       }
 
       .swiper-pagination {
-        top: 307px;
-        left: -5px;
+        top: 401px;
+        left: -3px;
 
         margin: 0 2px;
         margin-left: 0;
       }
 
-      .swiper-pagination-bulelt {
+      .swiper-pagination-bullet {
         width: 5px;
         height: 5px;
       }
@@ -1971,7 +1991,7 @@
       }
   
       .column:nth-child(2) {
-        flex: 0 24%;
+        flex: 0 45%;
 
         width: 33%;
 
@@ -1980,12 +2000,14 @@
       }
   
       .column:nth-child(3) {
-        flex: 0 41%;
+        flex: 1 41%;
 
         width: 200px;
         height: 2px;
 
         margin-top: 54px;
+        margin-left: -15px;
+        margin-right: -14px;
         margin-bottom: 2%;
       }
 
@@ -1997,9 +2019,9 @@
         width: 200px;
 
         padding-bottom: 0;
-        margin-top: -28px;
+        margin-top: -25px;
 
-        margin-left: 0;
+        margin-left: -6px;
 
         font-size: 20px;
       }
@@ -2008,23 +2030,24 @@
         ::before {
           content: '';
           top: 13px;
-          left: -46px;
+          left: -36px;
         }
       }
       
       .description {
         width: 260px;
-        padding-top: 17px;
+        padding-top: 16px;
         padding-left: 0;
 
-        margin-right: -90px;
+        margin-left: -10px;
+        margin-right: 0;
 
-        font-size: 13px;
+        font-size: 14px;
       }
   
       .mission-buttons {
         position: relative;
-        top: -16px;
+        top: -12px;
         left: -5px;
 
         width: 307px;
@@ -2032,28 +2055,28 @@
         margin-top: 0;
         margin-left: 0;
         .button:first-child {
-          padding: 12px 24px;
+          padding: 14px 19px;
           margin-left: 0;
           
-          font-size: 10px;
+          font-size: 11px;
         }
   
         .button:nth-child(2) {   
-          padding: 14px 40px;
+          padding: 14px 43px;
 
           margin-left: 3px;
 
-          font-size: 12px;
+          font-size: 11px;
 
           line-height: 7.5;
         }
       }
   
       .mission-provide-solutions {
-        top: -63px;
-        left: -9px;
+        top: -59px;
+        left: 0;
   
-        width: 320px;
+        width: 100%;
         height: 456px;
 
         background-size: cover;
@@ -2101,7 +2124,7 @@
 
     .healthy-reading {
       .title {
-        margin-top: 406px;
+        margin-top: 411px;
         margin-left: 0;
         margin-bottom: 2px;
 
@@ -2118,9 +2141,13 @@
       .FilterBy {
         display: none;
       }
+
+      .arrow-filter-button {
+        display: none;
+      }
   
       .swiper-container {
-        top: -73px;
+        top: -70px;
         left: -3px;
 
         height: 198px;
@@ -2266,11 +2293,11 @@
 
         width: 100%;
         
-        padding: 13px 40px;
+        padding: 13px 42px;
         
         margin-left: 18px;
 
-        font-size: 13px;
+        font-size: 12px;
       }
     }
 
@@ -2307,22 +2334,22 @@
       .subtitle {
         position: absolute;
         top: -287px;
+        left: -9px;
 
         margin-top: 0;
-        margin-left: 0;
 
-        font-size: 22px;
+        font-size: 21px;
       }
   
       .description {
-        margin-top: 10px;
+        margin-top: 9px;
         margin-left: 0;
-        margin-right: 42px;
+        margin-right: 4px;
   
-        font-size: 12px;
-        letter-spacing: .8px;
+        font-size: 13px;
+        letter-spacing: .7px;
 
-        line-height: 2;
+        line-height: 1.9;
       }
   
       .list-information {
@@ -2330,17 +2357,17 @@
         ::before {
           content: '';
           position: absolute;
-          top: 0;
-          left: -40px;
+          top: 2px;
+          left: -41px;
   
           width: 25px;
         }
       
         .information-text {
-          top: 7px;
+          top: 6px;
 
           padding-left: 4px;
-          margin-bottom: 13px;
+          margin-bottom: 14px;
           margin-right: 12px;
 
           font-size: 14px;
@@ -2353,386 +2380,6 @@
   
       .bottom-bg-image {
         display: none;
-      }
-    }
-  }
-}
-
-@media (max-width: 1530px) {
-  .home {
-    .our-mission {
-      .mission-provide-solutions {
-        width: 754px;
-      }
-    }
-   
-    .information-system {  
-      .bottom-bg-image {
-        left: 373px;
-      }
-    }
-  }
-}
-
-@media  (max-width: 1200px) {
-  .home {
-    transition: all .2s ease-in-out;
-    .introduction {
-      position: relative;
-      top: -130px;
-  
-      padding-bottom: 2px;
-
-      background-size: cover;
-      background-position: center;
-      .swiper-container {
-        width: 100%;
-        height: 100%;
-      }
-  
-      .swiper-pagination-bullet-active {
-        background-color: $white;
-      }
-  
-      .swiper-pagination-bullet {
-        display: inline-block;
-        width: 8px;
-        height: 8px;
-  
-        margin: 4px;
-  
-        border-radius: 100%;
-        opacity: 1.2;
-      }
-
-      .banner-title {
-        padding-top: 267px;
-        font-family: $font-opensansbold;
-        color: $offwhite;
-      }
-      
-      .title {
-        margin-left: 89px;
-        margin-top: 69px;
-  
-        font-size: 60px;
-      }
-
-      .banner-icons {
-        padding-top: 84px;
-        padding-left: 24px;
-      }
-
-      .img-icon-mission,
-      .img-icon-feedback,
-      .img-icon-contact {
-        padding-right: 63px;
-      }
-      
-      .icon-title {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-  
-        width: 0;
-  
-        padding-top:10px;
-        padding-bottom: 97px;
-  
-        margin-top: 2px;
-        margin-left: 20px;
-  
-        font-size: 16px;
-        font-family: $font-opensansbold;
-        text-align: center;
-      }
-
-      .icon-text {
-        padding-left: 66px;
-  
-        font-family: $font-opensanssemibold;
-        font-size: 15px;
-        color: $offwhite;
-      }
-
-      .icon-banner {
-        padding-left: 61px;
-        
-        margin-left: 0;
-        margin-right: 0;
-      }
-    } 
-
-    .our-mission { 
-      .our-mission-img {
-        display: none;
-      }
-  
-      .title {
-        margin-left: 67px;
-      }
-
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-  
-        margin-top: -53px;
-        margin-left: 0 ;
-        margin-right: 0;
-      }
-  
-      .column:first-child {
-        display: none;
-      }
-  
-      .column:nth-child(2) {
-        flex: 1 24%;
-        margin-top: 54px;
-        margin-bottom: 2%;
-        width: 33%;
-      }
-  
-      .column:nth-child(3) {
-        flex: 1 24%;
-        margin-top: 54px;
-        margin-bottom: 2%;
-        width: 33%;
-      }
-
-      .mission-description {
-        ::before {
-          content: '';
-          left: 28px;
-        }
-      }
-      
-      .description {
-        padding-left: 67px;
-
-        font-size: 15px;
-      }
-  
-      .mission-buttons {
-        width: 301px;
-
-        margin-top: 67px;
-        .button:first-child {
-          padding: 19px 30px;
-          margin-left: 70px;
-          
-          font-size: 13px;
-        }
-  
-        .button:nth-child(2) {   
-          margin-left: 68px;
-
-          font-size: 13px;
-
-          line-height: 8;
-        }
-      }
-  
-      .mission-provide-solutions {
-        top: -189px;
-        right: 166px;
-  
-        .title-head {
-          padding-left: 118px;
-
-          text-align: left;
-        }
-        
-        .icon {
-          padding-left: 122px;
-        }
-  
-        .title {
-          padding-left: 127px;
-        }
-  
-        .subtitle {
-          padding-left: 196px;
-        }
-      }
-    }
-
-    .healthy-reading {
-      .title {
-        margin-left: 50px;
-      }
-  
-      .subtitle {
-        margin-left: 51px;
-
-        font-size: 16px;
-      }
-  
-      .FilterBy {
-        margin-left: 250px;
-      }
-  
-      .swiper-container {
-        top: -53px;
-        left: 15px;
-  
-        width: 100%;
-      }
-  
-      .swiper-slide:first-child {
-        width: 55%;
-
-        background-image: url('../assets/images/health-first.5.fw.png');
-        background-size: cover;
-  
-        .description {
-          margin-top: 366px;
-          margin-left: 35px;
-          margin-right: 21%;
-        }
-  
-        .category {
-          height: 22px;
-  
-          margin-top: 0;
-          margin-left: 32px;
-        }
-      }
-  
-      .swiper-slide:nth-child(2) {
-        width: 35%;
-
-        background-image: url('../assets/images/health-second.5.fw.png');
-        background-size: cover;
-  
-        .description {
-          margin-top: 368px;
-          margin-left: 25px;
-          margin-right: 0;
-        }
-  
-        .category {
-          height: 26px;
-  
-          margin-top: 0;
-          margin-left: 23px;
-        }
-      }
-  
-      .swiper-slide:nth-child(3) {
-        width: 35%;
-        background-image: url('../assets/images/health-third.5.fw.png');
-        background-size: cover;
-  
-        .description {
-          margin-top: 362px;
-          margin-left: 23px;
-        }
-  
-        .category {
-          height: 24px;
-
-          margin-top: 19px;
-          margin-left: 22px;
-        }
-      }
-  
-      .swiper-slide:nth-child(4) {
-        width: 35%;
-
-        background-image: url('../assets/images/health-fourth.fw.png');
-        background-size: cover;
-  
-        .description {
-          margin-top: 373px;
-          margin-left: 27px;
-          margin-right: 0;
-        }
-  
-        .category {
-          height: 19px;
-  
-          margin-top: 0;
-          margin-left: 31px;
-        }
-      }
-
-      .journal-btn {
-        width: 100%;
-        
-        margin-left: 85px;
-  
-        padding: 19px 60px;
-        
-        font-family: $font-opensansbold;
-        font-size: 15px;
-        color: $offwhite;
-  
-        background-image: url('../assets/images/buttons.fw.png');
-        
-        border-radius: 30px;
-        border: 0;
-  
-        outline: 0;
-      }
-    }
-
-    .information-system {
-      background-position: -111px;
-      padding-bottom: 190px;
-  
-      .information-img {
-        margin-left: 0;
-      }
-
-      .information-img img {
-        width: 500px;
-      }
-  
-      .title {
-        margin-top: 207px;
-        font-size: 38px;
-      }
-  
-      .subtitle {
-        font-size: 42px;
-      }
-  
-      .description {
-        margin-top: 0;
-        margin-right: 0;
-  
-        font-size: 13px;
-      }
-  
-      .list-information {
-        list-style-type: none;
-        ::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: -9px;
-  
-          width: 25px;
-        }
-      
-        .information-text {
-          top: 15px;
-
-          font-size: 16px;
-        }
-      }
-  
-      .solutions-btn {
-        padding: 18px 48px;
-
-        font-size: 14px;
-      }
-
-      .bottom-bg-image {
-        left: 294px;
-        bottom: -239px;
-
-        width: 300px;
       }
     }
   }
@@ -2821,7 +2468,7 @@
       }
   
       .column:nth-child(2) {
-        flex: 0 24%;
+        flex: 0 45%;
 
         width: 33%;
 
@@ -2830,12 +2477,14 @@
       }
   
       .column:nth-child(3) {
-        flex: 0 41%;
+        flex: 1 41%;
 
         width: 385px;
         height: 2px;
 
         margin-top: 54px;
+        margin-left: -15px;
+        margin-right: -15px;
         margin-bottom: 2%;
       }
 
@@ -2874,26 +2523,26 @@
   
       .mission-buttons {
         position: relative;
-        top: -16px;
-        left: -5px;
+        top: 2px;
+        left: 20px;
 
-        width: 307px;
+        width: 327px;
 
         margin-top: 0;
         margin-left: 0;
         .button:first-child {
-          padding: 12px 24px;
+          padding: 16px 20px;
           margin-left: 0;
           
-          font-size: 10px;
+          font-size: 13px;
         }
   
         .button:nth-child(2) {   
-          padding: 14px 40px;
+          padding: 16px 40px;
 
           margin-left: 3px;
 
-          font-size: 12px;
+          font-size: 13px;
 
           line-height: 7.5;
         }
@@ -2901,9 +2550,9 @@
   
       .mission-provide-solutions {
         top: -48px;
-        left: -6px;
+        left: 0;
   
-        width: 431px;
+        width: 100%;
         height: 554px;
 
         background-size: cover;
@@ -2911,10 +2560,10 @@
         .title-head {
           top: 91px;
           
-          padding-left: 32px;
+          padding-left: 64px;
 
           font-size: 28px;
-          text-align: center;
+          text-align: left;
         }
         
         .title-provide {
@@ -2922,18 +2571,18 @@
         }
 
         .icon {
-          padding-left: 33px;
+          padding-left: 40px;
         }
   
         .title {
           width: 309px;
 
-          padding-left: 50px;
+          padding-left: 60px;
           margin-top: 60px;
         }
   
         .subtitle {
-          padding-left: 96px;
+          padding-left: 105px;
         }
       }
     }
@@ -2955,6 +2604,10 @@
       }
   
       .FilterBy {
+        display: none;
+      }
+
+      .arrow-filter-button {
         display: none;
       }
   
@@ -2981,7 +2634,8 @@
         }
 
         .date {
-          margin-bottom: 16px;
+          margin-left: 34px;
+          margin-bottom: 30px;
         }
   
         .category {
@@ -3000,6 +2654,7 @@
   
         .description {
           margin-top: 203px;
+          margin-left: 23px;
           margin-bottom: 2px;
 
           font-size: 25px;
@@ -3035,6 +2690,8 @@
 
         .date {
           margin-top: 10px;
+          margin-left: 27px;
+          margin-bottom: 22px;
         }
   
         .category {
@@ -3053,10 +2710,15 @@
   
         .description {
           margin-top: 199px;
-          margin-left: 12px;
+          margin-left: 27px;
           margin-right: 26px;
 
           font-size: 25px;
+        }
+
+        .date {
+          margin-left: 30px;
+          margin-bottom: 30px;
         }
   
         .category {
@@ -3070,9 +2732,9 @@
       .journal-btn {
         width: 100%;
         
-        margin-left: 18px;
+        margin-left: 39px;
   
-        padding: 19px 65px;
+        padding: 15px 55px;
 
         font-size: 13px;
       }
@@ -3214,7 +2876,7 @@
         margin-left: 0;
       }
 
-      .swiper-pagination-bulelt {
+      .swiper-pagination-bullet {
         width: 5px;
         height: 5px;
       }
@@ -3240,7 +2902,7 @@
       }
   
       .column:nth-child(2) {
-        flex: 0 24%;
+        flex: 0 70%;
 
         width: 33%;
 
@@ -3249,12 +2911,14 @@
       }
   
       .column:nth-child(3) {
-        flex: 0 80%;
+        flex: 1 88%;
 
         width: 200px;
         height: 2px;
 
         margin-top: 54px;
+        margin-left: -16px;
+        margin-right: -13px;
         margin-bottom: 2%;
       }
 
@@ -3270,7 +2934,7 @@
 
         margin-left: 0;
 
-        font-size: 20px;
+        font-size: 30px;
       }
 
       .mission-description {
@@ -3301,10 +2965,10 @@
         margin-top: 0;
         margin-left: 0;
         .button:first-child {
-          padding: 12px 24px;
+          padding: 12px 10px;
           margin-left: 0;
           
-          font-size: 10px;
+          font-size: 13px;
         }
   
         .button:nth-child(2) {   
@@ -3312,7 +2976,7 @@
 
           margin-left: 3px;
 
-          font-size: 12px;
+          font-size: 13px;
 
           line-height: 7.5;
         }
@@ -3320,9 +2984,9 @@
   
       .mission-provide-solutions {
         top: -63px;
-        left: -9px;
+        left: 2px;
   
-        width: 320px;
+        width: 100%;
         height: 456px;
 
         background-size: cover;
@@ -3385,6 +3049,10 @@
       }
   
       .FilterBy {
+        display: none;
+      }
+
+      .arrow-filter-button {
         display: none;
       }
   
@@ -3469,7 +3137,7 @@
         background-size: cover;
   
         .description {
-          margin-top: 73px;
+          margin-top: 95px;
           margin-left: 5px;
           margin-right: 28px;
 
@@ -3547,7 +3215,7 @@
       height: 796px;
 
       padding-bottom: 0;
-      margin-top: -43px;
+      margin-top: 10px;
 
       background-position: -154px;
       .information-img {
@@ -3622,6 +3290,385 @@
   
       .bottom-bg-image {
         display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .home {
+    transition: all .2s ease-in-out;
+    .introduction {
+      position: relative;
+      top: -130px;
+  
+      padding-bottom: 2px;
+  
+      background-image: url('../assets/images/intro-pic.fw.png');
+      background-size: cover;
+      background-position: center;
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+  
+       .swiper-pagination {
+        margin: 17px 89px;
+      }
+  
+      .swiper-pagination-bullet-active {
+        background-color: $white;
+      }
+  
+      .swiper-pagination-bullet {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+  
+        margin: 4px;
+  
+        border-radius: 100%;
+        opacity: 1.2;
+      }
+
+      .banner-title {
+        padding-top: 267px;
+        font-family: $font-opensansbold;
+        color: $offwhite;
+      }
+      
+      .title {
+        margin-left: 89px;
+        margin-top: 69px;
+  
+        font-size: 60px;
+      }
+
+      .banner-icons {
+        padding-top: 84px;
+        padding-left: 24px;
+      }
+
+      .img-icon-mission,
+      .img-icon-feedback,
+      .img-icon-contact {
+        padding-right: 63px;
+      }
+      
+      .icon-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+  
+        width: 0;
+  
+        padding-top:10px;
+        padding-bottom: 97px;
+  
+        margin-top: 2px;
+        margin-left: 20px;
+  
+        font-size: 16px;
+        font-family: $font-opensansbold;
+        text-align: center;
+      }
+
+      .icon-text {
+        padding-left: 66px;
+  
+        font-family: $font-opensanssemibold;
+        font-size: 15px;
+        color: $offwhite;
+      }
+
+      .icon-banner {
+        padding-left: 61px;
+        
+        margin-left: 0;
+        margin-right: 0;
+      }
+    } 
+
+    .our-mission { 
+      .our-mission-img {
+        width: 235px;
+
+        margin-left: 0;
+      }
+  
+      .title {
+        margin-left: 67px;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+  
+        margin-top: -53px;
+        margin-left: 0 ;
+        margin-right: 0;
+      }
+  
+      .column:first-child {
+        flex: 0 24%;
+        margin-top: 54px;
+        margin-bottom: 2%;
+        width: 33%;
+        height: 100px;
+      }
+  
+      .column:nth-child(2) {
+        flex: 1 24%;
+        margin-top: 54px;
+        margin-bottom: 2%;
+        width: 33%;
+      }
+  
+      .column:nth-child(3) {
+        flex: 2 24%;
+        margin-top: 54px;
+        margin-bottom: 2%;
+        width: 33%;
+      }
+
+      .mission-description {
+        ::before {
+          content: '';
+          left: 28px;
+        }
+      }
+      
+      .description {
+        padding-left: 67px;
+
+        font-size: 15px;
+      }
+  
+      .mission-buttons {
+        width: 301px;
+
+        margin-top: 67px;
+        .button:first-child {
+          padding: 19px 30px;
+          margin-left: 70px;
+          
+          font-size: 13px;
+        }
+  
+        .button:nth-child(2) {   
+          margin-left: 68px;
+
+          font-size: 13px;
+
+          line-height: 8;
+        }
+      }
+  
+      .mission-provide-solutions {
+        width: 100%;
+
+        top: -189px;
+        right: 6px;
+  
+        .title-head {
+          padding-left: 35px;
+        }
+        
+        .icon {
+          padding-left: 31px;
+        }
+  
+        .title {
+          padding-left: 33px;
+        }
+  
+        .subtitle {
+          padding-left: 100px;
+        }
+      }
+    }
+
+    .healthy-reading {
+      .title {
+        margin-left: 50px;
+      }
+  
+      .subtitle {
+        margin-left: 51px;
+
+        font-size: 16px;
+      }
+  
+      .FilterBy {
+        margin-left: 250px;
+      }
+
+      .arrow-filter-button {
+        left: 405px;
+      }
+  
+      .swiper-container {
+        top: -53px;
+        left: 15px;
+  
+        width: 100%;
+      }
+  
+      .swiper-slide:first-child {
+        width: 55%;
+
+        background-image: url('../assets/images/health-first.5.fw.png');
+        background-size: cover;
+  
+        .description {
+          margin-top: 366px;
+          margin-left: 35px;
+          margin-right: 21%;
+        }
+  
+        .category {
+          height: 22px;
+  
+          margin-top: 0;
+          margin-left: 32px;
+        }
+      }
+  
+      .swiper-slide:nth-child(2) {
+        width: 35%;
+
+        background-image: url('../assets/images/health-second.5.fw.png');
+        background-size: cover;
+  
+        .description {
+          margin-top: 368px;
+          margin-left: 25px;
+          margin-right: 0;
+        }
+  
+        .category {
+          height: 26px;
+  
+          margin-top: 0;
+          margin-left: 23px;
+        }
+      }
+  
+      .swiper-slide:nth-child(3) {
+        width: 35%;
+        background-image: url('../assets/images/health-third.5.fw.png');
+        background-size: cover;
+  
+        .description {
+          margin-top: 362px;
+          margin-left: 23px;
+        }
+  
+        .category {
+          height: 24px;
+
+          margin-top: 19px;
+          margin-left: 22px;
+        }
+      }
+  
+      .swiper-slide:nth-child(4) {
+        width: 35%;
+
+        background-image: url('../assets/images/health-fourth.fw.png');
+        background-size: cover;
+  
+        .description {
+          margin-top: 373px;
+          margin-left: 27px;
+          margin-right: 0;
+        }
+  
+        .category {
+          height: 19px;
+  
+          margin-top: 0;
+          margin-left: 31px;
+        }
+      }
+
+      .journal-btn {
+        width: 100%;
+        
+        margin-left: 20px;
+  
+        padding: 19px 60px;
+        
+        font-family: $font-opensansbold;
+        font-size: 15px;
+        color: $offwhite;
+  
+        background-image: url('../assets/images/buttons.fw.png');
+        
+        border-radius: 30px;
+        border: 0;
+  
+        outline: 0;
+      }
+    }
+
+    .information-system {
+      background-position: -111px;
+      padding-bottom: 190px;
+  
+      .information-img {
+        margin-left: 0;
+      }
+
+      .information-img img {
+        width: 500px;
+      }
+  
+      .title {
+        margin-top: 207px;
+        font-size: 38px;
+      }
+  
+      .subtitle {
+        font-size: 42px;
+      }
+  
+      .description {
+        margin-top: 0;
+        margin-right: 0;
+  
+        font-size: 13px;
+      }
+  
+      .list-information {
+        list-style-type: none;
+        ::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -9px;
+  
+          width: 25px;
+        }
+      
+        .information-text {
+          top: 15px;
+
+          font-size: 16px;
+        }
+      }
+  
+      .solutions-btn {
+        padding: 18px 48px;
+
+        font-size: 14px;
+      }
+
+      .bottom-bg-image {
+        left: 264px;
+        bottom: -239px;
+
+        width: 232px;
       }
     }
   }

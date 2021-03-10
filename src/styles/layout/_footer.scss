@@ -7,7 +7,7 @@
 .footer {
   height: 711px; 
   
-  margin-top: 198px;
+  margin-top: 201px;
 
   background-image: url('../assets/images/bestassictane-app-bg.fw.png');
   background-size: cover;
@@ -75,23 +75,30 @@
         line-height: 1.8;
       }
 
-      .app-link {
-        margin-top: 28px;
-
-        margin-right: 248px;
-        
-        font-family: "Open Sans";
-        font-size: 16.5px;
-        color: #fffef9;
-        
-        text-align: center;
-        text-decoration: underline;
-        
-        letter-spacing: -.5px;
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
 
         :hover {
           color: $ink;
         }
+      }
+
+      .app-link {
+        width: 122px;
+
+        padding-bottom: 5px;
+
+        margin-top: 28px;
+        margin-left: 83px;
+        
+        font-family: "Open Sans";
+        font-size: 16.5px;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
       }
     }
 
@@ -114,23 +121,34 @@
 
         line-height: 1.8;
       }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
       
       .app-link {
+        width: 161px;
+
+        padding-bottom: 6px;
+
         margin-top: 27px;
-        margin-right: 266px;
+        margin-left: 55px;
 
         font-family: "Open Sans";
         font-size: 16.5px;
         color: #fffef9;
         
         text-align: center;
-        text-decoration: underline;
+        text-decoration: none;
 
         letter-spacing: -.5px;
 
-        :hover {
-          color: $ink;
-        }
+        border-bottom: 1px solid;
       }
     }
 
@@ -150,22 +168,33 @@
         color: $offwhite;
       }
 
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+
       .app-link {
+        width: 81px;
+
+        padding-bottom: 6px;
+
         margin-top: 26px;
-        margin-right: 334px;
+        margin-left: 62px;
         
         font-family: "Open Sans";
         font-size: 16.5px;
         color: #fffef9;
         
-        text-align: center;
-        text-decoration: underline;
+        text-align: left;
+        text-decoration: none;
 
         letter-spacing: -.5px;
 
-        :hover {
-          color: $ink;
-        }
+        border-bottom: 1px solid;
       }
     }
   }
@@ -191,7 +220,19 @@
       color: $ink;
       text-decoration: none;
 
-      cursor: auto;
+      cursor: default;
+
+      :hover {
+        color: $seablue;
+      }
+    }
+
+    .Privacy {
+      margin-left: 40px;
+    }
+
+    .koein {
+      margin-left: 42px;
     }
 
     .icons {
@@ -214,6 +255,7 @@
   .footer {   
     .first-row {
       .mobile-app {
+        top: -121px;
         right: 7px;
       }
 
@@ -242,7 +284,7 @@
         }
   
         .app-link {
-          margin-right: 170px;
+          margin-left: 0;
         }
       }
   
@@ -258,7 +300,8 @@
         }
         
         .app-link {
-          margin-right: 120px;
+          margin-top: 22px;
+          margin-left: 0;
         }
       }
   
@@ -274,8 +317,8 @@
         }
   
         .app-link {
-          margin-top: 47px;
-          margin-right: 185px;
+          margin-top: 40px;
+          margin-left: 0;
         }
       }
     }
@@ -298,7 +341,7 @@
   .footer {   
     height: 547px;
 
-    margin-top: 127px;
+    margin-top: 2px;
     .first-row {
       height: 235px;
       .mobile-app {
@@ -309,31 +352,31 @@
       }
 
       .title {
-        margin-top: 34px;
+        margin-top: 36px;
         margin-left: 6px;
 
         font-size: 25px;
       }
 
       .description {
-        margin-top: 0;
+        margin-top: -4px;
         margin-left: 7px;
-        margin-right: 138px;
+        margin-right: 135px;
 
         font-size: 14px;
 
-        line-height: 1.6;
+        line-height: 1.7;
       }
 
       .app-store-img {
-        margin-top: 0;
+        margin-top: 4px;
         margin-left: 8px;
 
         width: 134px;
       }
 
       .google-play-img {
-        margin-top: 7px;
+        margin-top: 4px;
         margin-left: 12px;
 
         width: 134px;
@@ -354,15 +397,22 @@
         }
   
         .subtitle {
-          margin-top: 42px;
-          margin-left: 13px;
+          width: 231px;
+          margin-top: 43px;
+          margin-left: 12px;
 
-          font-size: 13px;
+          font-size: 14.5px;
+
+          line-height: 1.7;
         }
   
         .app-link {
-          margin-top: 20px;
-          margin-left: -12px;
+          width: 101px;
+
+          padding-bottom: 3px;
+
+          margin-top: 14px;
+          margin-left: 9px;
           margin-right: 99px;
           
           font-size: 13.5px;
@@ -378,15 +428,20 @@
           margin-left: 29px;
         }
         .subtitle {
-          margin-top: 11px;
-          margin-left: 25px;
-          margin-right: -33px;
+          margin-top: 16px;
+          margin-left: 26px;
+          margin-right: -22px;
           
-          font-size: 14px;
+          font-size: 14.5px;
+          line-height: 1.7;
         }
         
         .app-link {
-          margin-top: -5px;
+          width: 139px;
+
+          padding-bottom: 4px;
+          margin-top: -4px;
+          margin-left: 23px;
           margin-right: 55px;
 
           font-size: 13.5px;
@@ -401,7 +456,7 @@
           margin-left: 47px;
         }
         .subtitle {
-          margin-top: 36px;
+          margin-top: 40px;
           margin-left: 43px;
           margin-right: 6px;
 
@@ -409,6 +464,9 @@
         }
   
         .app-link {
+          width: 67px;
+
+          padding-bottom: 3px;
           margin-top: 53px;
           margin-right: 69px;
           
@@ -418,7 +476,7 @@
     }
   
     .third-row {
-      .policy {
+      .Privacy {
         display: none;
       }
 
@@ -428,8 +486,8 @@
 
       .koein {
         position: relative;
-        top: 228px;
-        left: -78px;
+        top: 231px;
+        left: -120px;
 
         font-family: $font-opensans;
         font-size: 12px;
@@ -519,6 +577,8 @@
         }
   
         .app-link {
+          width: 101px;
+
           margin-top: 20px;
           margin-left: 126px;
           margin-right: 0;
@@ -546,6 +606,8 @@
         }
         
         .app-link {
+          width: 139px;
+
           margin-top: 0px;
           margin-left: 124px;
           margin-right: 0;
@@ -572,6 +634,8 @@
         }
   
         .app-link {
+          width: 67px;
+
           margin-top: 18px;
           margin-left: 124px;
           margin-right: 0;
@@ -583,13 +647,7 @@
     }
   
     .third-row {
-      .footer-list {
-        margin-top: 336px;
-        margin-left: -19px;
-
-        text-align: left;
-      }
-      .policy {
+      .Privacy {
         display: none;
       }
 
@@ -598,7 +656,12 @@
       }
 
       .koein {
+        position: relative;
+        top: 320px;
+        left: -5px;
+
         font-family: $font-opensans;
+        font-size: 12px;
         color: $offwhite;
       }
 
@@ -609,9 +672,9 @@
   }
 }
 
-@include respond-to (xs) {
+@media (max-width: 320px) {
   .footer {   
-    height: 874px;
+    height: 100%;
 
     margin-top: 0;
     .first-row {
@@ -666,7 +729,7 @@
         .app-icon {
           width: 42px;
 
-          margin-top: 122px;
+          margin-top: 120px;
           margin-left: 0;
           margin-bottom: -132px;
         }
@@ -682,6 +745,10 @@
         }
   
         .app-link {
+          width: 101px;
+
+          padding-bottom: 2px;
+          
           margin-top: 12px;
           margin-left: 0;
           margin-right: 0;
@@ -701,8 +768,8 @@
         }
 
         .subtitle {
-          margin-top: 2px;
-          margin-left: 0;
+          margin-top: 0;
+          margin-left: 2px;
           margin-bottom: 13px;
           margin-right: 14px;
 
@@ -711,6 +778,9 @@
         }
         
         .app-link {
+          width: 135px;
+
+          padding-bottom: 2px;
           margin-top: 0px;
           margin-left: 0;
           margin-right: 0;
@@ -724,8 +794,8 @@
         .app-icon {
           width: 32px;
 
-          margin-top: 30px;
-          margin-left: 0;
+          margin-top: 26px;
+          margin-left: 3px;
         }
 
         .subtitle {
@@ -739,6 +809,9 @@
         }
   
         .app-link {
+          width: 65px;
+
+          padding-bottom: 2px;
           margin-top: 14px;
           margin-left: 0;
           margin-right: 0;
@@ -756,7 +829,7 @@
 
         text-align: left;
       }
-      .policy {
+      .Privacy {
         display: none;
       }
 
@@ -766,7 +839,7 @@
 
       .koein {
         position: absolute;
-        left: 0;
+        left: -30px;
 
         font-family: $font-opensans;
         color: $offwhite;
@@ -779,10 +852,93 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 575px) and (min-width: 400px) {
+  .footer {
+    height: 100%;
+    .second-row {
+      .column:first-child {
+        .app-link {
+          width: 101px;
+        }
+      }
+
+      .column:nth-child(2) {
+        .app-link {
+          width: 139px;
+        }
+      }
+
+      .column:nth-child(3) {
+        .app-link {
+          width: 67px;
+        }
+      }
+    }
+
+    .third-row {
+      .Privacy {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 0;
+        left: -75px;
+
+        font-family: $font-opensans;
+        font-size: 12px;
+        color: $offwhite;
+      }
+    }
+  }
+}
+
+@media (max-width: 399px) and (min-width: 328px) {
+  .footer {
+    height: 100%;
+    .second-row {
+      .column:first-child {
+        .app-link {
+          width: 101px;
+        }
+      }
+
+      .column:nth-child(2) {
+        .app-link {
+          width: 139px;
+        }
+      }
+
+      .column:nth-child(3) {
+        .app-link {
+          width: 67px;
+        }
+      }
+    }
+
+    .third-row {
+      .Privacy {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 0;
+        left: -75px;
+
+        font-family: $font-opensans;
+        font-size: 12px;
+        color: $offwhite;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
   .footer {   
     .first-row {
       .mobile-app {
+        top: -121px;
         right: 7px;
       }
 
@@ -811,7 +967,7 @@
         }
   
         .app-link {
-          margin-right: 170px;
+          margin-left: 0;
         }
       }
   
@@ -827,7 +983,8 @@
         }
         
         .app-link {
-          margin-right: 120px;
+          margin-top: 22px;
+          margin-left: 0;
         }
       }
   
@@ -843,8 +1000,8 @@
         }
   
         .app-link {
-          margin-top: 47px;
-          margin-right: 185px;
+          margin-top: 40px;
+          margin-left: 0;
         }
       }
     }
