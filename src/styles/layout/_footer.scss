@@ -1032,7 +1032,7 @@
   }
 }
 
-@media (max-width: 399px) and (min-width: 328px) {
+@media (max-width: 399px) and (min-width: 321px) {
   .footer {   
     height: 100%;
 
@@ -1207,6 +1207,339 @@
 
       .icons {
         display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) and (min-width: 1500px) {
+  .footer {
+    height: 711px; 
+    
+    margin-top: 201px;
+  
+    background-image: url('../assets/images/bestassictane-app-bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .first-row {
+      height: 445px;
+  
+      border-bottom: 1px solid $offwhite;
+      .title {
+        margin-top: 149px;
+        margin-left: 87px;
+    
+        font-family: $font-opensansbold;
+        font-size: 40px;
+        color: $offwhite;
+      }
+    
+      .description {
+        margin-top: 14px;
+        margin-left: 88px;
+    
+        font-family: "Open Sans";
+        font-size: 16px;
+        color: #fffef9;
+    
+        letter-spacing: 0.3px;
+      }
+    
+      .app-store-img {
+        margin-top: 22px;
+        margin-left: 88px;
+      }
+    
+      .google-play-img {
+        margin-top: 22px;
+        margin-left: 14px;
+      }
+    
+      .mobile-app {
+        position: absolute;
+        top: -120px;
+        right: 180px;
+      }
+    }
+  
+    .second-row {
+      height: 287px;
+      .column:first-child {
+        border-right: 1px solid $offwhite;
+  
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 84px;
+        }
+  
+        .subtitle {
+          margin-top: 33px;
+          margin-left: 84px;
+  
+          font-family: $font-opensans;
+          font-size: 15px;
+          color: $offwhite;
+          text-align: left;
+  
+          line-height: 1.8;
+        }
+  
+        .app-button {
+          color: $offwhite;
+          text-decoration: none;
+  
+          :hover {
+            color: $ink;
+          }
+        }
+  
+        .app-link {
+          width: 122px;
+  
+          padding-bottom: 5px;
+  
+          margin-top: 28px;
+          margin-left: 83px;
+          
+          font-family: "Open Sans";
+          font-size: 16.5px;
+          
+          text-decoration: none;
+          letter-spacing: -.5px;
+  
+          border-bottom: 1px solid;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border-right: 1px solid $offwhite;
+        .app-icon {
+          margin-top: 42px;
+          margin-left: 56px;
+        }
+        
+        .subtitle {
+          margin-top: 15px;
+          margin-left: 56px;
+          margin-right: 49px;
+  
+          font-family: $font-opensans;
+          font-size: 15px;
+          color: $offwhite;
+          text-align: left;
+  
+          line-height: 1.8;
+        }
+  
+        .app-button {
+          color: $offwhite;
+          text-decoration: none;
+  
+          :hover {
+            color: $ink;
+          }
+        }
+        
+        .app-link {
+          width: 161px;
+  
+          padding-bottom: 6px;
+  
+          margin-top: 27px;
+          margin-left: 55px;
+  
+          font-family: "Open Sans";
+          font-size: 16.5px;
+          color: #fffef9;
+          
+          text-align: center;
+          text-decoration: none;
+  
+          letter-spacing: -.5px;
+  
+          border-bottom: 1px solid;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-top: 41px;
+          margin-left: 63px;
+        }
+  
+        .subtitle {
+          margin-top: 36px;
+          margin-left: 57px;
+          margin-right: 49px;
+  
+          font-family: $font-opensansbold;
+          font-size: 35px;
+          color: $offwhite;
+        }
+  
+        .app-button {
+          color: $offwhite;
+          text-decoration: none;
+  
+          :hover {
+            color: $ink;
+          }
+        }
+  
+        .app-link {
+          width: 81px;
+  
+          padding-bottom: 6px;
+  
+          margin-top: 26px;
+          margin-left: 62px;
+          
+          font-family: "Open Sans";
+          font-size: 16.5px;
+          color: #fffef9;
+          
+          text-align: left;
+          text-decoration: none;
+  
+          letter-spacing: -.5px;
+  
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  
+    .third-row {
+      padding-bottom: 28px;
+      .footer-list {
+        margin-top: 24px;
+        margin-left: 35px;
+    
+        list-style-type: none;
+      }
+    
+      .footer-link {
+        padding-right: 1px;
+  
+        margin-left: 12px;
+        margin-right: 28px;
+    
+        font-family: $font-opensans;
+        font-size: 14px;
+        font-weight: bold;
+        color: $ink;
+        text-decoration: none;
+  
+        cursor: default;
+  
+        :hover {
+          color: $seablue;
+        }
+      }
+  
+      .Privacy {
+        margin-left: 40px;
+      }
+  
+      .koein {
+        margin-left: 42px;
+      }
+  
+      .icons {
+        padding-left: 413px;
+      }
+    
+      .footer-icons {
+        margin-top: 12px;
+        margin-left: 10px;
+      }
+  
+      .footer-link-icons {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1499px) and (min-width: 1200px) {
+  .footer {   
+    .first-row {
+      .mobile-app {
+        top: -121px;
+        right: 7px;
+      }
+
+      .title {
+        margin-left: 15px;
+      }
+
+      .description {
+        margin-left: 15px;
+        margin-right: 85px;
+      }
+
+      .app-store-img {
+        margin-left: 15px;
+      }
+    }
+
+    .second-row {
+      .column:first-child {
+        .app-icon {
+          margin-left: 25px;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 26px;
+        }
+
+        .subtitle {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+        
+        .app-link {
+          margin-top: 22px;
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 25px;
+        }
+
+        .subtitle {
+          margin-top: 40px;
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-top: 40px;
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row {
+      .footer-list {
+        margin-left: 0;
+      }
+
+      .icons {
+        padding-left: 222px;
+        padding-bottom: 20px;
       }
     }
   }

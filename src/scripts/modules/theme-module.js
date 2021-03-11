@@ -89,6 +89,20 @@ $(window).on({ scroll: scrolled });
     _swiperReading ();
   };
 
+  function lockScroll() {
+    if ($('body').hasClass('lock-scroll')) {
+        $('body').removeClass('lock-scroll');
+    }
+    else {
+        $('body').addClass('lock-scroll');
+    }
+  }  
+  $(document).ready(function() {
+    $('.icon-bar').click(function() {
+       lockScroll();
+    }); 
+  });
+
   return {
     init: init,
   };
