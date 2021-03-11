@@ -853,82 +853,360 @@
 }
 
 @media (max-width: 575px) and (min-width: 400px) {
-  .footer {
+  .footer {   
     height: 100%;
-    .second-row {
-      .column:first-child {
-        .app-link {
-          width: 101px;
-        }
+
+    margin-top: 0;
+    .first-row {
+      height: 131px;
+      border-bottom: none;
+      .mobile-app {
+        display: none;
       }
 
-      .column:nth-child(2) {
-        .app-link {
-          width: 139px;
-        }
+      .title {
+        margin-top: 34px;
+        margin-left: 0;
+        margin-bottom: 3px;
+
+        font-size: 25px;
+        text-align: left;
       }
 
-      .column:nth-child(3) {
-        .app-link {
-          width: 67px;
-        }
+      .description {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 22px;
+        margin-right: 0;
+
+        font-size: 14px;
+        text-align: left;
+
+        line-height: 1.7;
+      }
+
+      .app-store-img {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 15px;
+
+        width: 134px;
+      }
+
+      .google-play-img {
+        margin-top: 0;
+        margin-left: 0;
+
+        width: 134px;
       }
     }
 
+    .second-row {
+      height: 355px;
+      .column:first-child {
+        border-right: none;
+
+        .app-icon {
+          width: 42px;
+
+          margin-top: 120px;
+          margin-left: 0;
+          margin-bottom: -132px;
+        }
+  
+        .subtitle {
+          margin-top: 144px;
+          margin-left: 5px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 101px;
+
+          padding-bottom: 2px;
+          
+          margin-top: 12px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border-right: none;
+        .app-icon {
+          width: 50px;
+
+          margin-top: 22px;
+          margin-left: 0;
+        }
+
+        .subtitle {
+          margin-top: 0;
+          margin-left: 2px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+        
+        .app-link {
+          width: 135px;
+
+          padding-bottom: 2px;
+          margin-top: 0px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 32px;
+
+          margin-top: 26px;
+          margin-left: 3px;
+        }
+
+        .subtitle {
+          margin-top: 33px;
+          margin-left: 0;
+          margin-bottom: 0;
+          margin-right: 14px;
+
+          font-size: 24px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 65px;
+
+          padding-bottom: 2px;
+          margin-top: 14px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+    }
+  
     .third-row {
+      .footer-list {
+        margin-top: 336px;
+        margin-left: -19px;
+
+        text-align: left;
+      }
       .Privacy {
         display: none;
       }
 
+      .careers {
+        display: none;
+      }
+
       .koein {
-        position: relative;
-        top: 0;
-        left: -75px;
+        position: absolute;
+        left: -30px;
 
         font-family: $font-opensans;
-        font-size: 12px;
         color: $offwhite;
+      }
+
+      .icons {
+        display: none;
       }
     }
   }
 }
 
 @media (max-width: 399px) and (min-width: 328px) {
-  .footer {
+  .footer {   
     height: 100%;
-    .second-row {
-      .column:first-child {
-        .app-link {
-          width: 101px;
-        }
+
+    margin-top: 0;
+    .first-row {
+      height: 131px;
+      border-bottom: none;
+      .mobile-app {
+        display: none;
       }
 
-      .column:nth-child(2) {
-        .app-link {
-          width: 139px;
-        }
+      .title {
+        margin-top: 34px;
+        margin-left: 0;
+        margin-bottom: 3px;
+
+        font-size: 25px;
+        text-align: left;
       }
 
-      .column:nth-child(3) {
-        .app-link {
-          width: 67px;
-        }
+      .description {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 22px;
+        margin-right: 0;
+
+        font-size: 14px;
+        text-align: left;
+
+        line-height: 1.7;
+      }
+
+      .app-store-img {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 15px;
+
+        width: 134px;
+      }
+
+      .google-play-img {
+        margin-top: 0;
+        margin-left: 0;
+
+        width: 134px;
       }
     }
 
+    .second-row {
+      height: 355px;
+      .column:first-child {
+        border-right: none;
+
+        .app-icon {
+          width: 42px;
+
+          margin-top: 120px;
+          margin-left: 0;
+          margin-bottom: -132px;
+        }
+  
+        .subtitle {
+          margin-top: 144px;
+          margin-left: 5px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 101px;
+
+          padding-bottom: 2px;
+          
+          margin-top: 12px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border-right: none;
+        .app-icon {
+          width: 50px;
+
+          margin-top: 22px;
+          margin-left: 0;
+        }
+
+        .subtitle {
+          margin-top: 0;
+          margin-left: 2px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+        
+        .app-link {
+          width: 135px;
+
+          padding-bottom: 2px;
+          margin-top: 0px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 32px;
+
+          margin-top: 26px;
+          margin-left: 3px;
+        }
+
+        .subtitle {
+          margin-top: 33px;
+          margin-left: 0;
+          margin-bottom: 0;
+          margin-right: 14px;
+
+          font-size: 24px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 65px;
+
+          padding-bottom: 2px;
+          margin-top: 14px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+    }
+  
     .third-row {
+      .footer-list {
+        margin-top: 336px;
+        margin-left: -19px;
+
+        text-align: left;
+      }
       .Privacy {
         display: none;
       }
 
+      .careers {
+        display: none;
+      }
+
       .koein {
-        position: relative;
-        top: 0;
-        left: -75px;
+        position: absolute;
+        left: -30px;
 
         font-family: $font-opensans;
-        font-size: 12px;
         color: $offwhite;
+      }
+
+      .icons {
+        display: none;
       }
     }
   }
