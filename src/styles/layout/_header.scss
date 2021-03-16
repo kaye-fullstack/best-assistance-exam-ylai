@@ -19,8 +19,27 @@
 
   transition: all 1s;
   &.scrolled {
+    position: fixed;
+    top: -18px;
+
     background-color: $offwhite;
+
+    .header-logo {
+      padding-bottom: 10px;
     }
+
+    .nav-link {
+      margin-top: 24px;
+    }
+  
+    .telephone {
+      margin-top: 21px;
+    }
+  
+    .language {
+      margin-top: 21px;
+    }
+  }
 
   border-bottom: 1px solid $gray;
   .header-logo { 
@@ -73,10 +92,10 @@
   }
 
   .language {
-    padding: 13px;
-    margin-top: 4px;
+    padding: 14px 20px ;
+    margin-top: 3px;
     margin-left: 0;
-    margin-right: 72px;
+    margin-right: 54px;
     
     width: 79px;
 
@@ -90,6 +109,13 @@
     border-radius: 25px;
 
     outline: 0;
+
+    -webkit-appearance: none;
+  }
+
+  .arrow-header-lang {
+    position: relative;
+    left: -91px;
   }
 }
 
@@ -156,10 +182,10 @@
   }
 
   .language {
-    padding: 13px;
-    margin-top: 4px;
+    padding: 14px 20px ;
+    margin-top: 3px;
     margin-left: 0;
-    margin-right: 72px;
+    margin-right: 54px;
     
     width: 79px;
 
@@ -173,6 +199,13 @@
     border-radius: 25px;
 
     outline: 0;
+
+    -webkit-appearance: none;
+  }
+
+  .arrow-header-lang {
+    position: relative;
+    left: -91px;
   }
 }
 

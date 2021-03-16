@@ -39,15 +39,14 @@
         <a href="/" class="navbar-brand">
           <img class="header-logo" src="assets/images/logo.fw.png">
         </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar collapse-bar"></span>
-          <span class="icon-bar collapse-bar"></span>
-          <span class="icon-bar collapse-bar"></span>
-        </button>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="about.html" class="nav-link"> About us
               </a>
             </li>
@@ -64,22 +63,23 @@
               <a href="#" class="nav-link"> Contact us</a>
             </li>
           </ul>
-        </div> 
-        <ul class="navbar-nav flex-row">
-          <li class="nav-item">
-            <a href="tel: +9611425456" class="nav-link telephone">
-              <img class="tel-logo" src="assets/images/tel.fw.png" /> 
-              +961 1 425 456
-            </a>
-          </li>
-          <li class="nav-item">
-            <select class="language"> 
-              <option value="EN"> EN </option>
-              <option value="AR"> AR </option>
-            </select>
-          </li>
-        </ul>     
-       </nav>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a href="tel: +9611425456" class="nav-link telephone">
+                <img class="tel-logo" src="assets/images/tel.fw.png" /> 
+                +961 1 425 456
+              </a>
+            </li>
+            <li class="nav-item">
+              <select class="language"> 
+                <option value="EN"> EN </option>
+                <option value="AR"> AR </option>
+              </select>
+              <img class="arrow-header-lang" src="assets/images/2.fw.png" />
+            </li>
+          </ul>   
+        </div>
+      </nav>
     </div>
   </header>
   <main class="home"> 
@@ -151,7 +151,8 @@
             </div>
             <div class="swiper-slide">
               <div class="banner-title"> 
-                <h3 class="title">YOUR LOCAL <br> & REGIONAL MEDICAL <br> CLAIM MANAGER</h3></div>
+                <h3 class="title">YOUR LOCAL <br> & REGIONAL MEDICAL <br> CLAIM MANAGER</h3>
+              </div>
               <div class="swiper-pagination"></div>
               <div class="banner-icons">
                 <img src="assets/images/mission.fw.png" class="icon-banner" alt="mission">
@@ -255,6 +256,7 @@
           </p>
         </div>
         <div class="col-md-6">
+          <img class="arrow-filter-button" src="assets/images/15.fw.png" />
           <select class="FilterBy"> 
             <option value="FilterBy"> Filter by </option>
             <option value="News"> News </option>
@@ -355,22 +357,22 @@
         <div class="col-md-4 column">
           <img class="app-icon" src="assets/images/read-more-img.fw.png" />
           <p class="subtitle"> Read and share your medical case story with us. Get inspired and motivate others for a healthier lifestyle. </p>
-          <a href="#">
+          <a href="#" class="app-button">
             <p class="app-link" > Share your story </p>
           </a>
         </div>
         <div class="col-md-4 column">
           <img class="app-icon" src="assets/images/feedbackfw.png" />
           <p class="subtitle"> We focus on maintaining a professional customized relationship while administering your medical claim. </p>
-          <a href="#">
-            <p class="app-link" > Give us your feedback </p>
+          <a href="#" class="app-button">
+            <p class="app-link"> Give us your feedback </p>
           </a>
         </div>
         <div class="col-md-4 column">
           <img class="app-icon" src="assets/images/contactus.fw.png" />
           <p class="subtitle"> +961 1 425 426 </p>
-          <a href="#">
-            <p class="app-link" > Contact us</p>
+          <a href="#" class="app-button">
+            <p class="app-link"> Contact us</p>
           </a>
         </div>
       </div>
@@ -378,9 +380,11 @@
         <div class=" col-md-6">
           <ul class="footer-item">
             <li class="footer-list"> 
-              <a href="#" class="footer-link careers"> Careers </a>
-              <a href="#" class="footer-link policy"> Privacy Policy </a>
-              <a href="#" class="footer-link koein"> By ⓚ koein </a>
+              <a href="#" class="footer-link"> 
+                <span class="careers"> Careers </span> 
+                <span class="Privacy"> Privacy Policy </span>  
+                <span class="koein"> By ⓚ koein </span>
+              </a>
             </li>
           </ul>
         </div>
