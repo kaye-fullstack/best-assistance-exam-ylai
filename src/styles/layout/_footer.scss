@@ -1545,4 +1545,536 @@
   }
 }
 
+//XL
+.footer {
+  height: 271px; 
+  
+  margin-top: 128px;
+
+  background-image: url('../assets/images/bestassictane-app-bg.fw.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .second-row-about {
+    height: 287px;
+    .column:first-child {
+      border-right: 1px solid $offwhite;
+
+      .app-icon {
+        margin-top: 43px;
+        margin-left: 193px;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        margin-left: 191px;
+
+        font-family: $font-opensans;
+        font-size: 15px;
+        color: $offwhite;
+        text-align: left;
+
+        line-height: 1.8;
+      }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+      
+      .app-link {
+        width: 160px;
+
+        padding-bottom: 5px;
+
+        margin-top: 28px;
+        margin-left: 194px;
+        
+        font-family: $font-opensans;
+        font-size: 16.5px;
+        color: $white;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
+      }
+    }
+
+    .column:nth-child(2) {
+      border-right: 1px solid $offwhite;
+      .app-icon {
+        margin-top: 43px;
+        margin-left: 125px;
+      }
+      
+      .subtitle {
+        margin-top: 33px;
+        margin-left: 125px;
+        margin-right: 55px;
+
+        font-family: $font-opensans;
+        font-size: 15px;
+        color: $offwhite;
+        text-align: left;
+
+        line-height: 1.8;
+      }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+      
+      .app-link {
+        width: 120px;
+
+        padding-bottom: 5px;
+
+        margin-top: 28px;
+        margin-left: 126px;
+        
+        font-family: $font-opensans;
+        font-size: 16.5px;
+        color: $white;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
+      }
+    }
+
+    .column:nth-child(3) {
+      .app-icon {
+        margin-top: 43px;
+        margin-left: 2px;
+      }
+
+      .subtitle {
+        margin-top: 33px;
+        margin-left: 2px;
+        margin-right: 49px;
+
+        font-family: $font-opensansbold;
+        font-size: 35px;
+        color: $offwhite;
+      }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+      
+      .app-link {
+        width: 77px;
+
+        padding-bottom: 5px;
+
+        margin-top: 23px;
+        margin-left: 1px;
+        
+        font-family: $font-opensans;
+        font-size: 16.5px;
+        color: $white;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
+      }
+    }
+  }
+
+  .third-row-about {
+    padding-bottom: 28px;
+    .footer-list {
+      margin-top: 29px;
+      margin-left: 141px;
+  
+      list-style-type: none;
+    }
+  
+    .footer-link {
+      padding-right: 1px;
+
+      margin-left: 12px;
+      margin-right: 28px;
+  
+      font-family: $font-opensans;
+      font-size: 14px;
+      font-weight: bold;
+      color: $ink;
+      text-decoration: none;
+
+      cursor: auto;
+    }
+
+    .icons {
+      padding-left: 396px;
+    }
+  
+    .footer-icons {
+      margin-top: 17px;
+      margin-left: 15px;
+    }
+  }
+}
+
+@include respond-to (lg) {
+  .footer {  
+    .second-row-about {
+      .column:first-child {
+        .app-icon {
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .footer-list {
+        margin-left: 0;
+      }
+
+      .icons{
+        padding-left: 240px;
+      }
+
+      .fb {
+        display: none;
+      }
+
+      .ig {
+        display: none;
+      }
+    }
+  }
+}
+
+//991-768
+@include respond-to (md) {
+  .footer {
+    height: 389px;
+
+    margin-top: 54px;
+    .second-row-about {
+      .column:first-child {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+
+          font-size: 15px;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 30px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .policy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        left: -173px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+//767-576 
+@include respond-to (sm) {
+  .footer {  
+    height: 750px;
+
+    margin-top: 54px;
+    .second-row-about {
+      .column:first-child {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+
+          font-size: 15px;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 30px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .policy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 392px;
+        left: -173px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+//320
+@include respond-to (xs) {
+  .footer {  
+    height: 850px;
+
+    margin-top: 0;
+    .second-row-about {
+      height: 287px;
+      .column:first-child {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 30px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .policy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 470px;
+        left: -173px;
+
+        margin-right: 16px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+
 
