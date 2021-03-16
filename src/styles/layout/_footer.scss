@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
-//XL - homepage
+//XL
 .footer {
   height: 711px; 
   
@@ -207,170 +207,7 @@
   }
 }
 
-//XL - aboutpage
-.footer {
-  height: 271px; 
-  
-  margin-top: 125px;
-
-  background-image: url('../assets/images/bestassictane-app-bg.fw.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  .second-row-about {
-    height: 287px;
-    .column:first-child {
-      border-right: 1px solid $offwhite;
-
-      .app-icon {
-        margin-top: 43px;
-        margin-left: 178px;
-      }
-
-      .subtitle {
-        margin-top: 10px;
-        margin-left: 178px;
-
-        font-family: $font-opensans;
-        font-size: 15px;
-        color: $offwhite;
-        text-align: left;
-
-        line-height: 1.8;
-      }
-
-      .app-link {
-        margin-top: 28px;
-
-        margin-right: 75px;
-        
-        font-family: "Open Sans";
-        font-size: 16.5px;
-        color: #fffef9;
-        
-        text-align: center;
-        text-decoration: underline;
-        
-        letter-spacing: -.5px;
-
-        :hover {
-          color: $ink;
-        }
-      }
-    }
-
-    .column:nth-child(2) {
-      border-right: 1px solid $offwhite;
-      .app-icon {
-        margin-top: 42px;
-        margin-left: 122px;
-      }
-      
-      .subtitle {
-        margin-top: 34px;
-        margin-left: 122px;
-        margin-right: 55px;
-
-        font-family: $font-opensans;
-        font-size: 15px;
-        color: $offwhite;
-        text-align: left;
-
-        line-height: 1.8;
-      }
-      
-      .app-link {
-        margin-top: 27px;
-        margin-right: 233px;
-
-        font-family: "Open Sans";
-        font-size: 16.5px;
-        color: #fffef9;
-        
-        text-align: center;
-        text-decoration: underline;
-
-        letter-spacing: -.5px;
-
-        :hover {
-          color: $ink;
-        }
-      }
-    }
-
-    .column:nth-child(3) {
-      .app-icon {
-        margin-top: 41px;
-        margin-left: 6px;
-      }
-
-      .subtitle {
-        margin-top: 36px;
-        margin-left: 5px;
-        margin-right: 49px;
-
-        font-family: $font-opensansbold;
-        font-size: 35px;
-        color: $offwhite;
-      }
-
-      .app-link {
-        margin-top: 24px;
-        margin-left: 5px;
-        margin-right: 384px;
-        
-        font-family: "Open Sans";
-        font-size: 16.5px;
-        color: #fffef9;
-        
-        text-align: left;
-        text-decoration: underline;
-
-        letter-spacing: -.5px;
-
-        :hover {
-          color: $ink;
-        }
-      }
-    }
-  }
-
-  .third-row-about {
-    padding-bottom: 28px;
-    .footer-list {
-      margin-top: 28px;
-      margin-left: 126px;
-  
-      list-style-type: none;
-    }
-  
-    .footer-link {
-      padding-right: 1px;
-
-      margin-left: 12px;
-      margin-right: 28px;
-  
-      font-family: $font-opensans;
-      font-size: 14px;
-      font-weight: bold;
-      color: $ink;
-      text-decoration: none;
-
-      cursor: auto;
-    }
-
-    .icons {
-      padding-left: 396px;
-    }
-  
-    .footer-icons {
-      margin-top: 17px;
-      margin-left: 15px;
-    }
-  }
-}
-
-//1199-992 homepage
+//1199-992
 @include respond-to (lg) {
   .footer {   
     .first-row {
@@ -454,78 +291,7 @@
   }
 }
 
-//aboutpage
-@include respond-to (lg) {
-  .footer {  
-    .second-row-about {
-      .column:first-child {
-        .app-icon {
-          margin-left: 0;
-        }
-  
-        .subtitle {
-          margin-left: 0;
-        }
-  
-        .app-link {
-          text-align: left;
-        }
-      }
-  
-      .column:nth-child(2) {
-        .app-icon {
-          margin-left: 0;
-        }
-        
-        .subtitle {
-          margin-left: 0;
-          margin-right: 0;
-        }
-        
-        .app-link {
-          margin-right: 0;
-          text-align: left;
-        }
-      }
-  
-      .column:nth-child(3) {
-        .app-icon {
-          margin-left: 0;
-        }
-        
-        .subtitle {
-          margin-left: 0;
-          margin-right: 0;
-        }
-        
-        .app-link {
-          margin-right: 0;
-          text-align: left;
-        }
-      }
-    }
-  
-    .third-row-about {
-      .footer-list {
-        margin-left: 0;
-      }
-
-      .icons{
-        padding-left: 240px;
-      }
-
-      .fb {
-        display: none;
-      }
-
-      .ig {
-        display: none;
-      }
-    }
-  }
-}
-
-//991-768 homepage
+//991-768
 @include respond-to (md) {
   .footer {   
     height: auto;
@@ -674,101 +440,7 @@
   }
 }
 
-//991-768 aboutpage
-@include respond-to (md) {
-  .footer {  
-    .second-row-about {
-      .column:first-child {
-        border: none;
-        .app-icon {
-          width: 50px;
-
-          margin-left: 0;
-        }
-  
-        .subtitle {
-          margin-left: 0;
-
-          font-size: 15px;
-        }
-  
-        .app-link {
-          font-size: 15px;
-          text-align: left;
-        }
-      }
-  
-      .column:nth-child(2) {
-        border: none;
-        .app-icon {
-          width: 50px;
-
-          margin-left: 0;
-        }
-        
-        .subtitle {
-          margin-left: 0;
-          margin-right: 0;
-
-          font-size: 15px;
-        }
-        
-        .app-link {
-          margin-right: 0;
-
-          font-size: 15px;
-          text-align: left;
-        }
-      }
-  
-      .column:nth-child(3) {
-        .app-icon {
-          width: 50px;
-
-          margin-left: 0;
-        }
-        
-        .subtitle {
-          margin-left: 0;
-          margin-right: 0;
-
-          font-size: 30px;
-        }
-        
-        .app-link {
-          margin-right: 0;
-
-          font-size: 15px;
-          text-align: left;
-        }
-      }
-    }
-  
-    .third-row-about {
-      .policy {
-        display: none;
-      }
-
-      .careers {
-        display: none;
-      }
-
-      .koein {
-        position: relative;
-        left: -173px;
-
-        font-family: $font-opensans;
-        color: $offwhite;
-      }
-
-      .icons {
-        display: none;
-      }
-    }
-  }
-}
-
-//767-576 homepage
+//767-576
 @include respond-to (sm) {
   .footer {   
     height: 874px;
@@ -934,103 +606,7 @@
   }
 }
 
-//767-576 aboutpage
-@include respond-to (sm) {
-  .footer {  
-    height: 750px;
-    .second-row-about {
-      .column:first-child {
-        border: none;
-        .app-icon {
-          width: 50px;
-
-          margin-left: 0;
-        }
-  
-        .subtitle {
-          margin-left: 0;
-
-          font-size: 15px;
-        }
-  
-        .app-link {
-          font-size: 15px;
-          text-align: left;
-        }
-      }
-  
-      .column:nth-child(2) {
-        border: none;
-        .app-icon {
-          width: 50px;
-
-          margin-left: 0;
-        }
-        
-        .subtitle {
-          margin-left: 0;
-          margin-right: 0;
-
-          font-size: 15px;
-        }
-        
-        .app-link {
-          margin-right: 0;
-
-          font-size: 15px;
-          text-align: left;
-        }
-      }
-  
-      .column:nth-child(3) {
-        .app-icon {
-          width: 50px;
-
-          margin-left: 0;
-        }
-        
-        .subtitle {
-          margin-left: 0;
-          margin-right: 0;
-
-          font-size: 30px;
-        }
-        
-        .app-link {
-          margin-right: 0;
-
-          font-size: 15px;
-          text-align: left;
-        }
-      }
-    }
-  
-    .third-row-about {
-      .policy {
-        display: none;
-      }
-
-      .careers {
-        display: none;
-      }
-
-      .koein {
-        position: relative;
-        top: 392px;
-        left: -173px;
-
-        font-family: $font-opensans;
-        color: $offwhite;
-      }
-
-      .icons {
-        display: none;
-      }
-    }
-  }
-}
-
-//320 homepage
+//320
 @include respond-to (xs) {
   .footer {   
     height: 874px;
@@ -1201,10 +777,268 @@
   }
 }
 
-//767-576 aboutpage
-@include respond-to (xs) {
+//XL
+.footer {
+  height: 271px; 
+  
+  margin-top: 128px;
+
+  background-image: url('../assets/images/bestassictane-app-bg.fw.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .second-row-about {
+    height: 287px;
+    .column:first-child {
+      border-right: 1px solid $offwhite;
+
+      .app-icon {
+        margin-top: 43px;
+        margin-left: 193px;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        margin-left: 191px;
+
+        font-family: $font-opensans;
+        font-size: 15px;
+        color: $offwhite;
+        text-align: left;
+
+        line-height: 1.8;
+      }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+      
+      .app-link {
+        width: 160px;
+
+        padding-bottom: 5px;
+
+        margin-top: 28px;
+        margin-left: 194px;
+        
+        font-family: $font-opensans;
+        font-size: 16.5px;
+        color: $white;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
+      }
+    }
+
+    .column:nth-child(2) {
+      border-right: 1px solid $offwhite;
+      .app-icon {
+        margin-top: 43px;
+        margin-left: 125px;
+      }
+      
+      .subtitle {
+        margin-top: 33px;
+        margin-left: 125px;
+        margin-right: 55px;
+
+        font-family: $font-opensans;
+        font-size: 15px;
+        color: $offwhite;
+        text-align: left;
+
+        line-height: 1.8;
+      }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+      
+      .app-link {
+        width: 120px;
+
+        padding-bottom: 5px;
+
+        margin-top: 28px;
+        margin-left: 126px;
+        
+        font-family: $font-opensans;
+        font-size: 16.5px;
+        color: $white;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
+      }
+    }
+
+    .column:nth-child(3) {
+      .app-icon {
+        margin-top: 43px;
+        margin-left: 2px;
+      }
+
+      .subtitle {
+        margin-top: 33px;
+        margin-left: 2px;
+        margin-right: 49px;
+
+        font-family: $font-opensansbold;
+        font-size: 35px;
+        color: $offwhite;
+      }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+      
+      .app-link {
+        width: 77px;
+
+        padding-bottom: 5px;
+
+        margin-top: 23px;
+        margin-left: 1px;
+        
+        font-family: $font-opensans;
+        font-size: 16.5px;
+        color: $white;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
+      }
+    }
+  }
+
+  .third-row-about {
+    padding-bottom: 28px;
+    .footer-list {
+      margin-top: 29px;
+      margin-left: 141px;
+  
+      list-style-type: none;
+    }
+  
+    .footer-link {
+      padding-right: 1px;
+
+      margin-left: 12px;
+      margin-right: 28px;
+  
+      font-family: $font-opensans;
+      font-size: 14px;
+      font-weight: bold;
+      color: $ink;
+      text-decoration: none;
+
+      cursor: auto;
+    }
+
+    .icons {
+      padding-left: 396px;
+    }
+  
+    .footer-icons {
+      margin-top: 17px;
+      margin-left: 15px;
+    }
+  }
+}
+
+@include respond-to (lg) {
   .footer {  
-    height: 780px;
+    .second-row-about {
+      .column:first-child {
+        .app-icon {
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .footer-list {
+        margin-left: 0;
+      }
+
+      .icons{
+        padding-left: 240px;
+      }
+
+      .fb {
+        display: none;
+      }
+
+      .ig {
+        display: none;
+      }
+    }
+  }
+}
+
+//991-768
+@include respond-to (md) {
+  .footer {
+    height: 389px;
+
+    margin-top: 54px;
     .second-row-about {
       .column:first-child {
         border: none;
@@ -1221,8 +1055,7 @@
         }
   
         .app-link {
-          font-size: 15px;
-          text-align: left;
+          margin-left: 0;
         }
       }
   
@@ -1242,10 +1075,7 @@
         }
         
         .app-link {
-          margin-right: 0;
-
-          font-size: 15px;
-          text-align: left;
+          margin-left: 0;
         }
       }
   
@@ -1264,10 +1094,7 @@
         }
         
         .app-link {
-          margin-right: 0;
-
-          font-size: 15px;
-          text-align: left;
+          margin-left: 0;
         }
       }
     }
@@ -1283,7 +1110,6 @@
 
       .koein {
         position: relative;
-        top: 425px;
         left: -173px;
 
         font-family: $font-opensans;
@@ -1297,4 +1123,188 @@
   }
 }
 
+//767-576 
+@include respond-to (sm) {
+  .footer {  
+    height: 750px;
+
+    margin-top: 54px;
+    .second-row-about {
+      .column:first-child {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+
+          font-size: 15px;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 30px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .policy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 392px;
+        left: -173px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+//320
+@include respond-to (xs) {
+  .footer {  
+    height: 850px;
+
+    margin-top: 0;
+    .second-row-about {
+      height: 287px;
+      .column:first-child {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 30px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .policy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 470px;
+        left: -173px;
+
+        margin-right: 16px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
 

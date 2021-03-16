@@ -22,7 +22,7 @@
     position: fixed;
     top: -18px;
 
-    background-color: $offwhite;
+    background-color: $white;
 
     .header-logo {
       padding-bottom: 10px;
@@ -78,7 +78,7 @@
     width: 170px;
 
     font-size: 14px;
-    color: $offwhite;
+    color: $white;
     background-color: $golden;
     
     text-align: center;
@@ -100,7 +100,7 @@
 
     font-family: $font-opensanssemibold;
     font-size: 14px;
-    color: $offwhite;
+    color: $white;
     background-color: $seablue;
     
     text-align: center;
@@ -237,7 +237,7 @@
       
       padding: 0 12px;
       
-      background-color: $offwhite;
+      background-color: $white;
   
       transition: all .3s ease;
     }
@@ -308,7 +308,7 @@
     }
 
     .navbar-nav {
-      background-color: $offwhite;
+      background-color: $white;
     }
     
     .flex-row {
@@ -352,7 +352,7 @@
       
       padding: 0 12px;
       
-      background-color: $offwhite;
+      background-color: $white;
   
       transition: all .3s ease;
     }
@@ -423,7 +423,7 @@
     }
 
     .navbar-nav {
-      background-color: $offwhite;
+      background-color: $white;
     }
 
     .navbar-toggler {
@@ -450,7 +450,7 @@
       
       padding: 0 12px;
       
-      background-color: $offwhite;
+      background-color: $white;
   
       transition: all .3s ease;
     }
@@ -520,7 +520,7 @@
     }
 
     .navbar-nav {
-      background-color: $offwhite;
+      background-color: $white;
     }
 
     .navbar-toggler {
@@ -547,7 +547,7 @@
       
       padding: 0 12px;
       
-      background-color: $offwhite;
+      background-color: $white;
   
       transition: all .3s ease;
     }
@@ -617,7 +617,7 @@
     }
 
     .navbar-nav {
-      background-color: $offwhite;
+      background-color: $white;
     }
 
     .navbar-toggler {
@@ -644,7 +644,7 @@
       
       padding: 0 12px;
       
-      background-color: $offwhite;
+      background-color: $white;
   
       transition: all .3s ease;
     }
@@ -689,7 +689,7 @@
   }
 }
 
-@media (max-width: 2000px) and (min-width: 1699px) {
+@media (max-width: 2000px) and (min-width: 1700px) {
   .header {   
     position: fixed;
     top: 0;
@@ -703,7 +703,7 @@
       position: fixed;
       top: -18px;
   
-      background-color: $offwhite;
+      background-color: $white;
   
       .header-logo {
         padding-bottom: 10px;
@@ -760,7 +760,7 @@
       width: 170px;
   
       font-size: 14px;
-      color: $offwhite;
+      color: $white;
       background-color: $golden;
       
       text-align: center;
@@ -782,7 +782,7 @@
   
       font-family: $font-opensanssemibold;
       font-size: 14px;
-      color: $offwhite;
+      color: $white;
       background-color: $seablue;
       
       text-align: center;
@@ -801,7 +801,7 @@
   }
 }
 
-@media (max-width: 1700px) and (min-width: 1500px) {
+@media (max-width: 1699px) and (min-width: 1500px) {
   .header {   
     position: fixed;
     top: 0;
@@ -815,7 +815,7 @@
       position: fixed;
       top: -18px;
   
-      background-color: $offwhite;
+      background-color: $white;
   
       .header-logo {
         padding-bottom: 10px;
@@ -872,7 +872,7 @@
       width: 170px;
   
       font-size: 14px;
-      color: $offwhite;
+      color: $white;
       background-color: $golden;
       
       text-align: center;
@@ -894,7 +894,7 @@
   
       font-family: $font-opensanssemibold;
       font-size: 14px;
-      color: $offwhite;
+      color: $white;
       background-color: $seablue;
       
       text-align: center;
