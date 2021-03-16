@@ -81,13 +81,6 @@ const scrolled = () => {
    };
 $(window).on({ scroll: scrolled });
 
-const elem = $('header-about');
-const scrolled = () => {
-   const threshold = $(document).scrollTop() > 50;
-   elem.toggleClass('scrolled', threshold);
-   };
-$(window).on({ scroll: scrolled });
-
   /////////////////////
   // Public Methods //
   ///////////////////
@@ -95,6 +88,20 @@ $(window).on({ scroll: scrolled });
     _privateMethod();
     _swiperReading ();
   };
+
+  function lockScroll() {
+    if ($('body').hasClass('lock-scroll')) {
+        $('body').removeClass('lock-scroll');
+    }
+    else {
+        $('body').addClass('lock-scroll');
+    }
+  }  
+  $(document).ready(function() {
+    $('.icon-bar').click(function() {
+       lockScroll();
+    }); 
+  });
 
   return {
     init: init,

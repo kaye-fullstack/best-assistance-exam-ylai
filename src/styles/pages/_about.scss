@@ -501,9 +501,6 @@
       }
   
       .about-why-us:last-child {
-        .column {
-          width: 525px;
-        }
         .title {
           padding-left: 0;
         }
@@ -688,9 +685,6 @@
         }
   
       .about-why-us:last-child {
-        .column {
-          width: 390px;
-        }
         .title {
           padding-left: 0;
 
@@ -722,10 +716,10 @@
       padding-bottom: 297px;
       margin-top: 75px;
 
-      background-position: top;
+      background-position: center;
 
       .navs-wrapper {
-        top: 614px;
+        top: 395px;
         left: 0;
       }
       
@@ -744,8 +738,7 @@
 
       .arrow-right {
         :after {
-          border-top: 19.5px solid transparent;
-            border-bottom: 19.5px solid transparent;
+          display: none;
         }
       }
   
@@ -786,6 +779,10 @@
           
           font-size: 13px;
         }
+      }
+
+      .breadcrumb-wrapper {
+        top: 345px;
       }
 
       .breadcrumb-item:first-child {
@@ -841,7 +838,7 @@
       .about-why-us:nth-child(2) {
         .title {
           position: relative;
-          top: -275px;
+          top: -310px;
 
           padding-left: 0px;
           margin-top: 0;
@@ -870,7 +867,7 @@
   
         .rounded-circle {
           position: relative;
-          top: 30px;
+          top: 10px;
 
           width: 250px;
           height: 250px;
@@ -884,7 +881,7 @@
         background: none;
         .title {
           position: absolute;
-          bottom: 221px;
+          bottom: 139px;
 
           padding-left: 0;
           margin-top: 0;
@@ -895,7 +892,7 @@
     
           .description {
             position: relative;
-            bottom: -380px;
+            bottom: -429px;
 
             padding-left: 0;
             margin-top: 0;
@@ -905,7 +902,7 @@
     
           .rounded-circle {
             position: relative;
-            bottom: 190px;
+            bottom: 89px;
 
             width: 250px;
             height: 250px;
@@ -916,12 +913,9 @@
         }
   
       .about-why-us:last-child {
-        .column {
-          width: 390px;
-        }
         .title {
           position: relative;
-          bottom: 100px;
+          bottom: 55px;
 
           padding-left: 10px;
 
@@ -930,7 +924,7 @@
   
         .description {
           padding-left: 10px;
-          margin-top: 222px;
+          margin-top: 298px;
           margin-right: 0;
 
           font-size: 15px;
@@ -938,7 +932,7 @@
   
         .rounded-circle {
           position: absolute;
-          top: 230px;
+          top: 295px;
 
           width: 250px;
           height: 250px;
@@ -956,7 +950,85 @@
   .home {
     .introduction-about {
       padding-bottom: 215px;
+      margin-top: 80px;
+
+      background-position: center;
+
+    .navs-wrapper {
+      top: 328px;
+      left: 0;
+      right: 0;
     }
+
+    .arrow-right {
+      padding: 2px 4px;
+
+      :after {
+        display: none;
+      }
+    }
+
+    .title {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+
+      font-size: 10px;
+    }
+
+      .swiper-slide:first-child {
+        width: 68px;
+
+        .nav-link {
+          height: 30px;
+
+          padding-top: 9px;
+          padding-left: 0;
+          padding-right: 0;
+
+          font-size: 10px;
+        }
+      }
+
+      .swiper-slide:nth-child(2) {
+        width: 109px;
+
+        .nav-link {
+          height: 30px;
+
+          padding-top: 9px;
+          padding-left: 0;
+          padding-right: 0;
+
+          font-size: 10px;
+        }
+      }
+
+      .swiper-slide:last-child {
+        width: 84px;
+
+        .nav-link {
+          height: 30px;
+
+          padding-top: 9px;
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 10px;
+        }
+      }
+
+      .breadcrumb-wrapper {
+        top: 275px;
+      }
+
+      .breadcrumb-item:first-child,
+      .breadcrumb-item:nth-child(2),
+      .breadcrumb-item:last-child {
+        font-size: 10px;
+      }
+    }
+
     .about-content {
       margin-top: 0;
       .about-why-us:first-child {
@@ -1067,9 +1139,6 @@
         }
   
       .about-why-us:last-child {
-        .column {
-          width: 300px;
-        }
         .title {
           position: relative;
           bottom: 100px;
