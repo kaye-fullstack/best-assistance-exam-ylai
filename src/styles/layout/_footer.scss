@@ -1546,7 +1546,7 @@
 }
 
 //XL
-.footer {
+.footer-about {
   height: 271px; 
   
   margin-top: 128px;
@@ -1734,7 +1734,7 @@
 }
 
 @include respond-to (lg) {
-  .footer {  
+  .footer-about {  
     .second-row-about {
       .column:first-child {
         .app-icon {
@@ -1803,7 +1803,7 @@
 
 //991-768
 @include respond-to (md) {
-  .footer {
+  .footer-about {
     height: 389px;
 
     margin-top: 54px;
@@ -1893,7 +1893,7 @@
 
 //767-576 
 @include respond-to (sm) {
-  .footer {  
+  .footer-about {  
     height: 750px;
 
     margin-top: 54px;
@@ -1984,7 +1984,7 @@
 
 //320
 @include respond-to (xs) {
-  .footer {  
+  .footer-about {  
     height: 850px;
 
     margin-top: 0;
