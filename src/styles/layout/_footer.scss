@@ -7,13 +7,11 @@
 .footer {
   height: 711px; 
   
-  margin-top: 198px;
+  margin-top: 201px;
 
   background-image: url('../assets/images/bestassictane-app-bg.fw.png');
   background-size: cover;
   background-repeat: no-repeat;
-  
-
   .first-row {
     height: 445px;
 
@@ -77,23 +75,30 @@
         line-height: 1.8;
       }
 
-      .app-link {
-        margin-top: 28px;
-
-        margin-right: 248px;
-        
-        font-family: "Open Sans";
-        font-size: 16.5px;
-        color: #fffef9;
-        
-        text-align: center;
-        text-decoration: underline;
-        
-        letter-spacing: -.5px;
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
 
         :hover {
           color: $ink;
         }
+      }
+
+      .app-link {
+        width: 122px;
+
+        padding-bottom: 5px;
+
+        margin-top: 28px;
+        margin-left: 83px;
+        
+        font-family: "Open Sans";
+        font-size: 16.5px;
+        
+        text-decoration: none;
+        letter-spacing: -.5px;
+
+        border-bottom: 1px solid;
       }
     }
 
@@ -116,23 +121,34 @@
 
         line-height: 1.8;
       }
+
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
       
       .app-link {
+        width: 161px;
+
+        padding-bottom: 6px;
+
         margin-top: 27px;
-        margin-right: 266px;
+        margin-left: 55px;
 
         font-family: "Open Sans";
         font-size: 16.5px;
         color: #fffef9;
         
         text-align: center;
-        text-decoration: underline;
+        text-decoration: none;
 
         letter-spacing: -.5px;
 
-        :hover {
-          color: $ink;
-        }
+        border-bottom: 1px solid;
       }
     }
 
@@ -152,22 +168,33 @@
         color: $offwhite;
       }
 
+      .app-button {
+        color: $offwhite;
+        text-decoration: none;
+
+        :hover {
+          color: $ink;
+        }
+      }
+
       .app-link {
+        width: 81px;
+
+        padding-bottom: 6px;
+
         margin-top: 26px;
-        margin-right: 334px;
+        margin-left: 62px;
         
         font-family: "Open Sans";
         font-size: 16.5px;
         color: #fffef9;
         
-        text-align: center;
-        text-decoration: underline;
+        text-align: left;
+        text-decoration: none;
 
         letter-spacing: -.5px;
 
-        :hover {
-          color: $ink;
-        }
+        border-bottom: 1px solid;
       }
     }
   }
@@ -193,7 +220,19 @@
       color: $ink;
       text-decoration: none;
 
-      cursor: auto;
+      cursor: default;
+
+      :hover {
+        color: $seablue;
+      }
+    }
+
+    .Privacy {
+      margin-left: 40px;
+    }
+
+    .koein {
+      margin-left: 42px;
     }
 
     .icons {
@@ -204,6 +243,10 @@
       margin-top: 12px;
       margin-left: 10px;
     }
+
+    .footer-link-icons {
+      text-decoration: none;
+    }
   }
 }
 
@@ -212,6 +255,7 @@
   .footer {   
     .first-row {
       .mobile-app {
+        top: -121px;
         right: 7px;
       }
 
@@ -240,7 +284,7 @@
         }
   
         .app-link {
-          margin-right: 170px;
+          margin-left: 0;
         }
       }
   
@@ -256,7 +300,8 @@
         }
         
         .app-link {
-          margin-right: 120px;
+          margin-top: 22px;
+          margin-left: 0;
         }
       }
   
@@ -272,8 +317,8 @@
         }
   
         .app-link {
-          margin-top: 47px;
-          margin-right: 185px;
+          margin-top: 40px;
+          margin-left: 0;
         }
       }
     }
@@ -291,48 +336,47 @@
   }
 }
 
-//991-768
+//991-786
 @include respond-to (md) {
   .footer {   
-    height: auto;
+    height: 547px;
 
-    margin-top: 127px;
+    margin-top: 2px;
     .first-row {
-      height: 131px;
-      border-bottom: none;
+      height: 235px;
       .mobile-app {
         top: -95px;
-        right: 72px;
+        right: 53px;
 
         width: 288px;
       }
 
       .title {
-        margin-top: 34px;
+        margin-top: 36px;
         margin-left: 6px;
 
         font-size: 25px;
       }
 
       .description {
-        margin-top: 0;
+        margin-top: -4px;
         margin-left: 7px;
-        margin-right: 138px;
+        margin-right: 135px;
 
         font-size: 14px;
 
-        line-height: 1.6;
+        line-height: 1.7;
       }
 
       .app-store-img {
-        margin-top: 0;
+        margin-top: 4px;
         margin-left: 8px;
 
         width: 134px;
       }
 
       .google-play-img {
-        margin-top: 7px;
+        margin-top: 4px;
         margin-left: 12px;
 
         width: 134px;
@@ -340,28 +384,35 @@
     }
 
     .second-row {
-      height: 355px;
+      height: 0;
       .column:first-child {
         border-right: none;
 
         .app-icon {
           width: 42px;
 
-          margin-top: 126px;
+          margin-top: 0;
           margin-left: 9px;
-          margin-bottom: -132px;
+          margin-bottom: -50px;
         }
   
         .subtitle {
-          margin-top: 145px;
-          margin-left: 13px;
+          width: 231px;
+          margin-top: 43px;
+          margin-left: 12px;
 
-          font-size: 13px;
+          font-size: 14.5px;
+
+          line-height: 1.7;
         }
   
         .app-link {
-          margin-top: 20px;
-          margin-left: -12px;
+          width: 101px;
+
+          padding-bottom: 3px;
+
+          margin-top: 14px;
+          margin-left: 9px;
           margin-right: 99px;
           
           font-size: 13.5px;
@@ -373,19 +424,24 @@
         .app-icon {
           width: 50px;
 
-          margin-top: 115px;
+          margin-top: 8px;
           margin-left: 29px;
         }
         .subtitle {
-          margin-top: 11px;
-          margin-left: 25px;
-          margin-right: -33px;
+          margin-top: 16px;
+          margin-left: 26px;
+          margin-right: -22px;
           
-          font-size: 14px;
+          font-size: 14.5px;
+          line-height: 1.7;
         }
         
         .app-link {
-          margin-top: -5px;
+          width: 139px;
+
+          padding-bottom: 4px;
+          margin-top: -4px;
+          margin-left: 23px;
           margin-right: 55px;
 
           font-size: 13.5px;
@@ -396,11 +452,11 @@
         .app-icon {
           width: 32px;
 
-          margin-top: 129px;
+          margin-top: 23px;
           margin-left: 47px;
         }
         .subtitle {
-          margin-top: 36px;
+          margin-top: 40px;
           margin-left: 43px;
           margin-right: 6px;
 
@@ -408,6 +464,9 @@
         }
   
         .app-link {
+          width: 67px;
+
+          padding-bottom: 3px;
           margin-top: 53px;
           margin-right: 69px;
           
@@ -417,7 +476,7 @@
     }
   
     .third-row {
-      .policy {
+      .Privacy {
         display: none;
       }
 
@@ -427,9 +486,11 @@
 
       .koein {
         position: relative;
-        left: -70px;
+        top: 231px;
+        left: -120px;
 
         font-family: $font-opensans;
+        font-size: 12px;
         color: $offwhite;
       }
 
@@ -516,6 +577,8 @@
         }
   
         .app-link {
+          width: 101px;
+
           margin-top: 20px;
           margin-left: 126px;
           margin-right: 0;
@@ -543,6 +606,8 @@
         }
         
         .app-link {
+          width: 139px;
+
           margin-top: 0px;
           margin-left: 124px;
           margin-right: 0;
@@ -569,6 +634,8 @@
         }
   
         .app-link {
+          width: 67px;
+
           margin-top: 18px;
           margin-left: 124px;
           margin-right: 0;
@@ -580,13 +647,7 @@
     }
   
     .third-row {
-      .footer-list {
-        margin-top: 336px;
-        margin-left: -19px;
-
-        text-align: left;
-      }
-      .policy {
+      .Privacy {
         display: none;
       }
 
@@ -595,7 +656,12 @@
       }
 
       .koein {
+        position: relative;
+        top: 320px;
+        left: -5px;
+
         font-family: $font-opensans;
+        font-size: 12px;
         color: $offwhite;
       }
 
@@ -606,10 +672,9 @@
   }
 }
 
-//320
-@include respond-to (xs) {
+@media only screen and (max-width: 320px) {
   .footer {   
-    height: 874px;
+    height: 100%;
 
     margin-top: 0;
     .first-row {
@@ -664,7 +729,7 @@
         .app-icon {
           width: 42px;
 
-          margin-top: 122px;
+          margin-top: 120px;
           margin-left: 0;
           margin-bottom: -132px;
         }
@@ -680,6 +745,10 @@
         }
   
         .app-link {
+          width: 101px;
+
+          padding-bottom: 2px;
+          
           margin-top: 12px;
           margin-left: 0;
           margin-right: 0;
@@ -699,8 +768,8 @@
         }
 
         .subtitle {
-          margin-top: 2px;
-          margin-left: 0;
+          margin-top: 0;
+          margin-left: 2px;
           margin-bottom: 13px;
           margin-right: 14px;
 
@@ -709,6 +778,9 @@
         }
         
         .app-link {
+          width: 135px;
+
+          padding-bottom: 2px;
           margin-top: 0px;
           margin-left: 0;
           margin-right: 0;
@@ -722,8 +794,8 @@
         .app-icon {
           width: 32px;
 
-          margin-top: 30px;
-          margin-left: 0;
+          margin-top: 26px;
+          margin-left: 3px;
         }
 
         .subtitle {
@@ -737,6 +809,9 @@
         }
   
         .app-link {
+          width: 65px;
+
+          padding-bottom: 2px;
           margin-top: 14px;
           margin-left: 0;
           margin-right: 0;
@@ -754,7 +829,7 @@
 
         text-align: left;
       }
-      .policy {
+      .Privacy {
         display: none;
       }
 
@@ -764,7 +839,7 @@
 
       .koein {
         position: absolute;
-        left: 0;
+        left: -30px;
 
         font-family: $font-opensans;
         color: $offwhite;
@@ -777,8 +852,701 @@
   }
 }
 
+@media (max-width: 575px) and (min-width: 400px) {
+  .footer {   
+    height: 100%;
+
+    margin-top: 0;
+    .first-row {
+      height: 131px;
+      border-bottom: none;
+      .mobile-app {
+        display: none;
+      }
+
+      .title {
+        margin-top: 34px;
+        margin-left: 0;
+        margin-bottom: 3px;
+
+        font-size: 25px;
+        text-align: left;
+      }
+
+      .description {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 22px;
+        margin-right: 0;
+
+        font-size: 14px;
+        text-align: left;
+
+        line-height: 1.7;
+      }
+
+      .app-store-img {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 15px;
+
+        width: 134px;
+      }
+
+      .google-play-img {
+        margin-top: 0;
+        margin-left: 0;
+
+        width: 134px;
+      }
+    }
+
+    .second-row {
+      height: 355px;
+      .column:first-child {
+        border-right: none;
+
+        .app-icon {
+          width: 42px;
+
+          margin-top: 120px;
+          margin-left: 0;
+          margin-bottom: -132px;
+        }
+  
+        .subtitle {
+          margin-top: 144px;
+          margin-left: 5px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 101px;
+
+          padding-bottom: 2px;
+          
+          margin-top: 12px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border-right: none;
+        .app-icon {
+          width: 50px;
+
+          margin-top: 22px;
+          margin-left: 0;
+        }
+
+        .subtitle {
+          margin-top: 0;
+          margin-left: 2px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+        
+        .app-link {
+          width: 135px;
+
+          padding-bottom: 2px;
+          margin-top: 0px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 32px;
+
+          margin-top: 26px;
+          margin-left: 3px;
+        }
+
+        .subtitle {
+          margin-top: 33px;
+          margin-left: 0;
+          margin-bottom: 0;
+          margin-right: 14px;
+
+          font-size: 24px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 65px;
+
+          padding-bottom: 2px;
+          margin-top: 14px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+    }
+  
+    .third-row {
+      .footer-list {
+        margin-top: 336px;
+        margin-left: -19px;
+
+        text-align: left;
+      }
+      .Privacy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: absolute;
+        left: -30px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 399px) and (min-width: 321px) {
+  .footer {   
+    height: 100%;
+
+    margin-top: 0;
+    .first-row {
+      height: 131px;
+      border-bottom: none;
+      .mobile-app {
+        display: none;
+      }
+
+      .title {
+        margin-top: 34px;
+        margin-left: 0;
+        margin-bottom: 3px;
+
+        font-size: 25px;
+        text-align: left;
+      }
+
+      .description {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 22px;
+        margin-right: 0;
+
+        font-size: 14px;
+        text-align: left;
+
+        line-height: 1.7;
+      }
+
+      .app-store-img {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 15px;
+
+        width: 134px;
+      }
+
+      .google-play-img {
+        margin-top: 0;
+        margin-left: 0;
+
+        width: 134px;
+      }
+    }
+
+    .second-row {
+      height: 355px;
+      .column:first-child {
+        border-right: none;
+
+        .app-icon {
+          width: 42px;
+
+          margin-top: 120px;
+          margin-left: 0;
+          margin-bottom: -132px;
+        }
+  
+        .subtitle {
+          margin-top: 144px;
+          margin-left: 5px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 101px;
+
+          padding-bottom: 2px;
+          
+          margin-top: 12px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border-right: none;
+        .app-icon {
+          width: 50px;
+
+          margin-top: 22px;
+          margin-left: 0;
+        }
+
+        .subtitle {
+          margin-top: 0;
+          margin-left: 2px;
+          margin-bottom: 13px;
+          margin-right: 14px;
+
+          font-size: 14px;
+          letter-spacing: .3px;
+        }
+        
+        .app-link {
+          width: 135px;
+
+          padding-bottom: 2px;
+          margin-top: 0px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 32px;
+
+          margin-top: 26px;
+          margin-left: 3px;
+        }
+
+        .subtitle {
+          margin-top: 33px;
+          margin-left: 0;
+          margin-bottom: 0;
+          margin-right: 14px;
+
+          font-size: 24px;
+          letter-spacing: .3px;
+        }
+  
+        .app-link {
+          width: 65px;
+
+          padding-bottom: 2px;
+          margin-top: 14px;
+          margin-left: 0;
+          margin-right: 0;
+          
+          font-size: 14px;
+          text-align: left;
+        }
+      }
+    }
+  
+    .third-row {
+      .footer-list {
+        margin-top: 336px;
+        margin-left: -19px;
+
+        text-align: left;
+      }
+      .Privacy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: absolute;
+        left: -30px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) and (min-width: 1500px) {
+  .footer {
+    height: 711px; 
+    
+    margin-top: 201px;
+  
+    background-image: url('../assets/images/bestassictane-app-bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .first-row {
+      height: 445px;
+  
+      border-bottom: 1px solid $offwhite;
+      .title {
+        margin-top: 149px;
+        margin-left: 87px;
+    
+        font-family: $font-opensansbold;
+        font-size: 40px;
+        color: $offwhite;
+      }
+    
+      .description {
+        margin-top: 14px;
+        margin-left: 88px;
+    
+        font-family: "Open Sans";
+        font-size: 16px;
+        color: #fffef9;
+    
+        letter-spacing: 0.3px;
+      }
+    
+      .app-store-img {
+        margin-top: 22px;
+        margin-left: 88px;
+      }
+    
+      .google-play-img {
+        margin-top: 22px;
+        margin-left: 14px;
+      }
+    
+      .mobile-app {
+        position: absolute;
+        top: -120px;
+        right: 180px;
+      }
+    }
+  
+    .second-row {
+      height: 287px;
+      .column:first-child {
+        border-right: 1px solid $offwhite;
+  
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 84px;
+        }
+  
+        .subtitle {
+          margin-top: 33px;
+          margin-left: 84px;
+  
+          font-family: $font-opensans;
+          font-size: 15px;
+          color: $offwhite;
+          text-align: left;
+  
+          line-height: 1.8;
+        }
+  
+        .app-button {
+          color: $offwhite;
+          text-decoration: none;
+  
+          :hover {
+            color: $ink;
+          }
+        }
+  
+        .app-link {
+          width: 122px;
+  
+          padding-bottom: 5px;
+  
+          margin-top: 28px;
+          margin-left: 83px;
+          
+          font-family: "Open Sans";
+          font-size: 16.5px;
+          
+          text-decoration: none;
+          letter-spacing: -.5px;
+  
+          border-bottom: 1px solid;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border-right: 1px solid $offwhite;
+        .app-icon {
+          margin-top: 42px;
+          margin-left: 56px;
+        }
+        
+        .subtitle {
+          margin-top: 15px;
+          margin-left: 56px;
+          margin-right: 49px;
+  
+          font-family: $font-opensans;
+          font-size: 15px;
+          color: $offwhite;
+          text-align: left;
+  
+          line-height: 1.8;
+        }
+  
+        .app-button {
+          color: $offwhite;
+          text-decoration: none;
+  
+          :hover {
+            color: $ink;
+          }
+        }
+        
+        .app-link {
+          width: 161px;
+  
+          padding-bottom: 6px;
+  
+          margin-top: 27px;
+          margin-left: 55px;
+  
+          font-family: "Open Sans";
+          font-size: 16.5px;
+          color: #fffef9;
+          
+          text-align: center;
+          text-decoration: none;
+  
+          letter-spacing: -.5px;
+  
+          border-bottom: 1px solid;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-top: 41px;
+          margin-left: 63px;
+        }
+  
+        .subtitle {
+          margin-top: 36px;
+          margin-left: 57px;
+          margin-right: 49px;
+  
+          font-family: $font-opensansbold;
+          font-size: 35px;
+          color: $offwhite;
+        }
+  
+        .app-button {
+          color: $offwhite;
+          text-decoration: none;
+  
+          :hover {
+            color: $ink;
+          }
+        }
+  
+        .app-link {
+          width: 81px;
+  
+          padding-bottom: 6px;
+  
+          margin-top: 26px;
+          margin-left: 62px;
+          
+          font-family: "Open Sans";
+          font-size: 16.5px;
+          color: #fffef9;
+          
+          text-align: left;
+          text-decoration: none;
+  
+          letter-spacing: -.5px;
+  
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  
+    .third-row {
+      padding-bottom: 28px;
+      .footer-list {
+        margin-top: 24px;
+        margin-left: 35px;
+    
+        list-style-type: none;
+      }
+    
+      .footer-link {
+        padding-right: 1px;
+  
+        margin-left: 12px;
+        margin-right: 28px;
+    
+        font-family: $font-opensans;
+        font-size: 14px;
+        font-weight: bold;
+        color: $ink;
+        text-decoration: none;
+  
+        cursor: default;
+  
+        :hover {
+          color: $seablue;
+        }
+      }
+  
+      .Privacy {
+        margin-left: 40px;
+      }
+  
+      .koein {
+        margin-left: 42px;
+      }
+  
+      .icons {
+        padding-left: 413px;
+      }
+    
+      .footer-icons {
+        margin-top: 12px;
+        margin-left: 10px;
+      }
+  
+      .footer-link-icons {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1499px) and (min-width: 1200px) {
+  .footer {   
+    .first-row {
+      .mobile-app {
+        top: -121px;
+        right: 7px;
+      }
+
+      .title {
+        margin-left: 15px;
+      }
+
+      .description {
+        margin-left: 15px;
+        margin-right: 85px;
+      }
+
+      .app-store-img {
+        margin-left: 15px;
+      }
+    }
+
+    .second-row {
+      .column:first-child {
+        .app-icon {
+          margin-left: 25px;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 26px;
+        }
+
+        .subtitle {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+        
+        .app-link {
+          margin-top: 22px;
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-top: 47px;
+          margin-left: 25px;
+        }
+
+        .subtitle {
+          margin-top: 40px;
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-top: 40px;
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row {
+      .footer-list {
+        margin-left: 0;
+      }
+
+      .icons {
+        padding-left: 222px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
 //XL
-.footer {
+.footer-about {
   height: 271px; 
   
   margin-top: 128px;
@@ -965,8 +1733,9 @@
   }
 }
 
+//1199-992
 @include respond-to (lg) {
-  .footer {  
+  .footer-about {  
     .second-row-about {
       .column:first-child {
         .app-icon {
@@ -1035,7 +1804,7 @@
 
 //991-768
 @include respond-to (md) {
-  .footer {
+  .footer-about {
     height: 389px;
 
     margin-top: 54px;
@@ -1125,7 +1894,7 @@
 
 //767-576 
 @include respond-to (sm) {
-  .footer {  
+  .footer-about {  
     height: 750px;
 
     margin-top: 54px;
@@ -1214,9 +1983,8 @@
   }
 }
 
-//320
-@include respond-to (xs) {
-  .footer {  
+@media only screen and (max-width: 320px) {
+  .footer-about {  
     height: 850px;
 
     margin-top: 0;
@@ -1308,3 +2076,321 @@
   }
 }
 
+@media (max-width: 575px) and (min-width: 400px) {
+  .footer-about {  
+    height: 750px;
+
+    margin-top: 54px;
+    .second-row-about {
+      .column:first-child {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+
+          font-size: 15px;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 30px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .policy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 392px;
+        left: -173px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 399px) and (min-width: 321px) {
+  .footer-about {  
+    height: 850px;
+
+    margin-top: 0;
+    .second-row-about {
+      height: 287px;
+      .column:first-child {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        border: none;
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 15px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          width: 50px;
+
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+
+          font-size: 30px;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .policy {
+        display: none;
+      }
+
+      .careers {
+        display: none;
+      }
+
+      .koein {
+        position: relative;
+        top: 470px;
+        left: -173px;
+
+        margin-right: 16px;
+
+        font-family: $font-opensans;
+        color: $offwhite;
+      }
+
+      .icons {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1699px) and (min-width: 1500px) {
+  .footer-about {  
+    .second-row-about {
+      .column:first-child {
+        .app-icon {
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .footer-list {
+        margin-left: 0;
+      }
+
+      .icons{
+        padding-left: 460px;
+      }
+
+      .fb {
+        display: none;
+      }
+
+      .ig {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1499px) and (min-width: 1200px) {
+  .footer-about {  
+    .second-row-about {
+      .column:first-child {
+        .app-icon {
+          margin-left: 0;
+        }
+  
+        .subtitle {
+          margin-left: 0;
+        }
+  
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(2) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+  
+      .column:nth-child(3) {
+        .app-icon {
+          margin-left: 0;
+        }
+        
+        .subtitle {
+          margin-left: 0;
+          margin-right: 0;
+        }
+        
+        .app-link {
+          margin-left: 0;
+        }
+      }
+    }
+  
+    .third-row-about {
+      .footer-list {
+        margin-left: 0;
+      }
+
+      .icons{
+        padding-left: 340px;
+      }
+
+      .fb {
+        display: none;
+      }
+
+      .ig {
+        display: none;
+      }
+    }
+  }
+}
