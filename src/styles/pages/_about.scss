@@ -303,7 +303,7 @@
       background-repeat: no-repeat;
       background-position: right -173px center;
       .title {
-        padding-left: 155px;
+        padding-left: 169px;
         margin-top: 131px;
 
         font-family: $font-opensansbold;
@@ -312,7 +312,7 @@
       }
 
       .description {
-        padding-left: 420px;
+        padding-left: 434px;
         padding-bottom: 13px;
         margin-top: 16px;
         
@@ -328,6 +328,7 @@
         margin-top: 124px; 
         margin-left: 91px;  
 
+        object-fit: contain;
         border-right: 8px solid $tangerine;
       }
     }
@@ -1627,7 +1628,7 @@
   }
 }
 
-@media (max-width: 2000px) and (min-width: 1700px) {
+@media only screen and (max-width: 1700px) {
   .home {
     .about-content {
       margin-top: 128px;
