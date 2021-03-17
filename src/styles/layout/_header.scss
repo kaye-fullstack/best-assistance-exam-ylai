@@ -19,6 +19,8 @@
 
     background-color: $white;
 
+    z-index: 10;
+
     .header-logo {
       padding-bottom: 10px;
     }
@@ -679,118 +681,6 @@
     .navbar-toggler[aria-expanded=true] .icon-bar:last-child {
       -webkit-transform: rotate(-225deg) translate(-6px,6px);
       transform: rotate(-225deg) translate(-4px,3px);
-    }
-  }
-}
-
-@media (max-width: 2000px) and (min-width: 1700px) {
-  .header {   
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-  
-    z-index: 2;
-  
-    transition: all 1s;
-    &.scrolled {
-      position: fixed;
-      top: -18px;
-  
-      background-color: $white;
-  
-      .header-logo {
-        padding-bottom: 10px;
-      }
-  
-      .nav-link {
-        margin-top: 24px;
-      }
-    
-      .telephone {
-        margin-top: 21px;
-      }
-    
-      .language {
-        margin-top: 21px;
-      }
-    }
-  
-    border-bottom: 1px solid $gray;
-    .header-logo { 
-      padding-bottom: 30px;
-  
-      margin-top: 14px;
-      margin-left: 68px;
-    }
-  
-    .navbar-buttons {
-      list-style-type: none;
-    }
-    
-    .nav-link {
-      margin-top: 3px;
-      margin-left: 22px;
-      margin-right: 4px;
-  
-      font-family: $font-opensans;
-      font-size: 14.2px;
-      font-weight: bold;
-      color: $ink;
-  
-      letter-spacing: .6px;
-    }
-  
-    .nav-link:hover {
-      color: $greeny;
-    }
-  
-    .telephone {
-      padding: 15px;
-      margin-top: 4px;
-      margin-left: 27px;
-      margin-right: 2px;
-  
-      width: 170px;
-  
-      font-size: 14px;
-      color: $white;
-      background-color: $golden;
-      
-      text-align: center;
-  
-      border-radius: 25px;
-  
-      .tel-logo {
-        width: 16px;
-      }
-    }
-  
-    .language {
-      padding: 14px 20px ;
-      margin-top: 3px;
-      margin-left: 0;
-      margin-right: 54px;
-      
-      width: 79px;
-  
-      font-family: $font-opensanssemibold;
-      font-size: 14px;
-      color: $white;
-      background-color: $seablue;
-      
-      text-align: center;
-  
-      border-radius: 25px;
-  
-      outline: 0;
-  
-      -webkit-appearance: none;
-    }
-  
-    .arrow-header-lang {
-      position: relative;
-      left: -91px;
     }
   }
 }
