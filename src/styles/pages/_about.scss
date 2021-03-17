@@ -1627,61 +1627,7 @@
   }
 }
 
-@media only screen and (max-width: 1700px) {
-  .home {
-    .about-content {
-      margin-top: 128px;
-      .about-why-us:first-child {
-        .description {
-          padding-left: 385px;
-        }
-      }
-  
-      .about-why-us:nth-child(2) {
-        .title {
-          padding-left: 100px;
-        }
-  
-        .subtitle {
-          padding-left: 100px;
-        }
-  
-        .description {
-          padding-left: 100px;
-          margin-right: 310px;
-        }
-  
-        .rounded-circle {
-          margin-left: 335px;
-        }
-      }
-  
-      .about-why-us:nth-child(3) {
-        .description {
-          padding-left: 380px;
-        }
-      }
-  
-      .about-why-us:last-child {
-        .title {
-          padding-left: 100px;
-        }
-  
-  
-        .description {
-          padding-left: 100px;
-          margin-right: 250px;
-        }
-  
-        .rounded-circle {
-          margin-left: 360px;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1699px) and (min-width: 1500px) {
+@media (max-width: 1700px) and (min-width: 1500px) {
   .home {
     .introduction-about {
       padding-bottom: 515px;
